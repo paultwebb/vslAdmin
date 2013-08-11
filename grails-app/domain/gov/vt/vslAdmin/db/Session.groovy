@@ -1,25 +1,27 @@
-package gov.vt.vermontHouse.db
+package gov.vt.vslAdmin.db
 
-class Committee {
+class Session {
 
 	// PROPERTIES
 	Integer code
-	String committee
-	String room 
+	String session
+	java.sql.Timestamp startDate
+	java.sql.Timestamp endDate
+	
 
 	java.sql.Timestamp dateCreated
 	java.sql.Timestamp lastUpdated
 	
 	// RELATIONSHIP PROPERTIES
-	static hasMany = [committeeAssignments:CommitteeAssignment]
+	static hasMany = [terms:Term]
 	
 	
 	// CONSTRAINTS
     static constraints = {
 		code (blank:false, unique:true, maxSize:10)
-		committee (blank:false, unique:true, maxSize:100)
-		room (nullable:true, maxSize:20)
-		
+		session (blank:false, unique:true, maxSize:100)
+		startDate(nullable:true)
+		endDate(nullable:true)		
 		}
 	
 	// MAPPING
@@ -28,6 +30,6 @@ class Committee {
 	
 	// METHODS
 	String toString() {
-		return "${committee}"
+		return "${session}"
 	}
 }

@@ -2,7 +2,9 @@ package gov.vt.vermontHouse.db
 
 
 
+import gov.vt.vslAdmin.db.CommitteeAssignment;
 import grails.test.mixin.*
+
 import org.junit.*
 
 /**

@@ -2,7 +2,9 @@ package gov.vt.vermontHouse.db
 
 
 
+import gov.vt.vslAdmin.db.GnisLocale;
 import grails.test.mixin.*
+
 import org.junit.*
 
 /**

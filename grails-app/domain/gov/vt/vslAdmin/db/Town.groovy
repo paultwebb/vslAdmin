@@ -1,4 +1,4 @@
-package gov.vt.vermontHouse.db
+package gov.vt.vslAdmin.db
 
 class Town {
 

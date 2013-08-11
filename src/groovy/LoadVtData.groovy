@@ -1,14 +1,15 @@
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import gov.vt.vermontHouse.db.Session
-import gov.vt.vermontHouse.db.GnisLocale
-import gov.vt.vermontHouse.db.County
-import gov.vt.vermontHouse.db.Town
-import gov.vt.vermontHouse.db.District
-import gov.vt.vermontHouse.db.Representative
-import gov.vt.vermontHouse.db.Committee
-import gov.vt.vermontHouse.db.CommitteeAssignment
-import gov.vt.vermontHouse.db.Term
+import gov.vt.vslAdmin.db.Session
+import gov.vt.vslAdmin.db.GnisLocale
+import gov.vt.vslAdmin.db.County
+import gov.vt.vslAdmin.db.Town
+import gov.vt.vslAdmin.db.District
+import gov.vt.vslAdmin.db.Representative
+import gov.vt.vslAdmin.db.Committee
+import gov.vt.vslAdmin.db.CommitteeAssignment
+import gov.vt.vslAdmin.db.Term
+
 
 import org.grails.plugins.csv.CSVMapReader
 
@@ -297,27 +298,28 @@ def loadTerms() {
 // Clear existing data
 
 
-Term.executeUpdate('delete Term')
-Session.executeUpdate('delete Session')
-CommitteeAssignment.executeUpdate('delete CommitteeAssignment')
-Representative.executeUpdate('delete Representative')
-Committee.executeUpdate('delete Committee')
-District.executeUpdate('delete District')
-Town.executeUpdate('delete Town')
-County.executeUpdate('delete County')
-GnisLocale.executeUpdate('delete GnisLocale')
+//Term.executeUpdate('delete Term')
+//Session.executeUpdate('delete Session')
+//CommitteeAssignment.executeUpdate('delete CommitteeAssignment')
+//Representative.executeUpdate('delete Representative')
+//Committee.executeUpdate('delete Committee')
+//District.executeUpdate('delete District')
+//Town.executeUpdate('delete Town')
+//County.executeUpdate('delete County')
+//GnisLocale.executeUpdate('delete GnisLocale')
 
 // Load new Data
 
- loadGnisLocales()
- loadCounties()
- loadCities()
- loadTowns()
- loadDistricts()
- loadCommittees()
- loadRepresentatives()
+// loadGnisLocales()
+// loadCounties()
+// loadCities()
+// loadTowns()
+// loadDistricts()
+// loadCommittees()
+// loadRepresentatives()
+
  loadCommitteeAssignments()
- loadSessions()
- loadTerms()
+// loadSessions()
+// loadTerms()
  
  

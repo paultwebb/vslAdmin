@@ -2,7 +2,9 @@ package gov.vt.vermontHouse.web
 
 
 
+import gov.vt.vslAdmin.web.TownController;
 import grails.test.mixin.*
+
 import org.junit.*
 
 /**

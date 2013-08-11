@@ -1,11 +1,11 @@
 package vermonthouse
 
-import gov.vt.vermontHouse.db.County
-import gov.vt.vermontHouse.db.GnisLocale
+import gov.vt.vslAdmin.db.County
+import gov.vt.vslAdmin.db.GnisLocale
 
-import gov.vt.vermontHouse.db.Town
-import gov.vt.vermontHouse.db.District
-import gov.vt.vermontHouse.db.Representative
+import gov.vt.vslAdmin.db.Town
+import gov.vt.vslAdmin.db.District
+import gov.vt.vslAdmin.db.Representative
 import org.grails.plugins.csv.CSVMapReader
 
 class LoadCsvService {
