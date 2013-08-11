@@ -237,7 +237,7 @@ def loadCommitteeAssignments() {
     reader.each { map ->
         //println map
         curCommitteeAssignment = new CommitteeAssignment(
-                committee:Committee.findByCode(map.code),
+                committee:Committee.findByCode(map.committeeCode),
                 representative:Representative.findByRepId(map.repId),
                 role:map.role
                 )
@@ -298,28 +298,28 @@ def loadTerms() {
 // Clear existing data
 
 
-//Term.executeUpdate('delete Term')
-//Session.executeUpdate('delete Session')
-//CommitteeAssignment.executeUpdate('delete CommitteeAssignment')
-//Representative.executeUpdate('delete Representative')
-//Committee.executeUpdate('delete Committee')
-//District.executeUpdate('delete District')
-//Town.executeUpdate('delete Town')
-//County.executeUpdate('delete County')
-//GnisLocale.executeUpdate('delete GnisLocale')
+Term.executeUpdate('delete Term')
+Session.executeUpdate('delete Session')
+CommitteeAssignment.executeUpdate('delete CommitteeAssignment')
+Representative.executeUpdate('delete Representative')
+Committee.executeUpdate('delete Committee')
+District.executeUpdate('delete District')
+Town.executeUpdate('delete Town')
+County.executeUpdate('delete County')
+GnisLocale.executeUpdate('delete GnisLocale')
 
 // Load new Data
 
-// loadGnisLocales()
-// loadCounties()
-// loadCities()
-// loadTowns()
-// loadDistricts()
-// loadCommittees()
-// loadRepresentatives()
+ loadGnisLocales()
+ loadCounties()
+ loadCities()
+ loadTowns()
+ loadDistricts()
+ loadCommittees()
+ loadRepresentatives()
 
  loadCommitteeAssignments()
-// loadSessions()
-// loadTerms()
+ loadSessions()
+ loadTerms()
  
  
