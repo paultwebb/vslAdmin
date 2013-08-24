@@ -18,7 +18,8 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://www.leg.state.vt.us/"><img src="http://www.leg.state.vt.us/Common/Images/LegislatureHome.jpg" alt="Vermont State Legislature"/></a></div>
+<!-- 		<div id="grailsLogo" role="banner"><a href="http://www.leg.state.vt.us/"><img src="http://www.leg.state.vt.us/Common/Images/LegislatureHome.jpg" alt="Vermont State Legislature"/></a></div>
+ -->
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>

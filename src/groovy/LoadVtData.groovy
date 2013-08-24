@@ -1,14 +1,14 @@
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import gov.vt.vslAdmin.db.Session
-import gov.vt.vslAdmin.db.GnisLocale
-import gov.vt.vslAdmin.db.County
-import gov.vt.vslAdmin.db.Town
-import gov.vt.vslAdmin.db.District
-import gov.vt.vslAdmin.db.Representative
-import gov.vt.vslAdmin.db.Committee
-import gov.vt.vslAdmin.db.CommitteeAssignment
-import gov.vt.vslAdmin.db.Term
+import gov.vt.vslAdmin.Session
+import gov.vt.vslAdmin.GnisLocale
+import gov.vt.vslAdmin.County
+import gov.vt.vslAdmin.Town
+import gov.vt.vslAdmin.District
+import gov.vt.vslAdmin.Representative
+import gov.vt.vslAdmin.Committee
+import gov.vt.vslAdmin.CommitteeAssignment
+import gov.vt.vslAdmin.Term
 
 
 import org.grails.plugins.csv.CSVMapReader
