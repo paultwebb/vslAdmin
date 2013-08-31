@@ -5,7 +5,7 @@ import gov.vt.vslAdmin.GnisLocale
 
 import gov.vt.vslAdmin.Town
 import gov.vt.vslAdmin.District
-import gov.vt.vslAdmin.Representative
+import gov.vt.vslAdmin.Person
 import org.grails.plugins.csv.CSVMapReader
 
 class LoadCsvService {

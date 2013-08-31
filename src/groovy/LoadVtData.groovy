@@ -5,7 +5,7 @@ import gov.vt.vslAdmin.GnisLocale
 import gov.vt.vslAdmin.County
 import gov.vt.vslAdmin.Town
 import gov.vt.vslAdmin.District
-import gov.vt.vslAdmin.Representative
+import gov.vt.vslAdmin.Person
 import gov.vt.vslAdmin.Committee
 import gov.vt.vslAdmin.CommitteeAssignment
 import gov.vt.vslAdmin.Term
@@ -183,11 +183,11 @@ def loadRepresentatives() {
     loads = 0;errors = 0
     fileName = "VermontHouse - Representative.csv"
     String filePath = "/Users/paulw/Downloads"
-    Representative curRepresentative
+    Person curRepresentative
     def reader = new File("${filePath}/${fileName}").toCsvMapReader()
     def results = [:]
     reader.each { map ->
-        curRepresentative = new Representative(map)
+        curRepresentative = new Person(map)
         if (!curRepresentative.save()) {
             println "Error ${map['name']}"
             println curRepresentative.errors.fieldErrors
@@ -301,7 +301,7 @@ def loadTerms() {
 Term.executeUpdate('delete Term')
 Session.executeUpdate('delete Session')
 CommitteeAssignment.executeUpdate('delete CommitteeAssignment')
-Representative.executeUpdate('delete Representative')
+Person.executeUpdate('delete Representative')
 Committee.executeUpdate('delete Committee')
 District.executeUpdate('delete District')
 Town.executeUpdate('delete Town')
@@ -310,16 +310,16 @@ GnisLocale.executeUpdate('delete GnisLocale')
 
 // Load new Data
 
- loadGnisLocales()
- loadCounties()
- loadCities()
- loadTowns()
- loadDistricts()
- loadCommittees()
+ //loadGnisLocales()
+ //loadCounties()
+ //loadCities()
+ //loadTowns()
+ //loadDistricts()
+ //loadCommittees()
  loadRepresentatives()
 
- loadCommitteeAssignments()
- loadSessions()
- loadTerms()
+ //loadCommitteeAssignments()
+ //loadSessions()
+ //loadTerms()
  
  

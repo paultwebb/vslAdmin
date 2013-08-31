@@ -12,7 +12,7 @@ class Term {
 	
 	// RELATIONSHIP PROPERTIES
 	static belongsTo = [
-		representative:Representative,
+		representative:Person,
 		session:Session,
 		district:District
 		]

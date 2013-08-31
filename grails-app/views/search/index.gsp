@@ -10,11 +10,25 @@
    name="searchForm"
    url="[controller:'search',action:'findRep']">
    <div>Seat/Plate:</div>
-   <g:textField name="seat"></g:textField>
+   <g:textField name="seat" value='${params.seat}'></g:textField>
    <input type="image"
-     src="${createLinkTo(dir:'images', file: 'login-button.gif')}"
+     src="${createLinkTo(dir:'images', file: 'favicon.ico')}"
      name="searchButton" id="searchButton" border="0">
     </input>
  </g:form>
+  <g:form
+   name="searchPersonForm"
+   url="[controller:'search',action:'findPerson']">
+   <div>Last Name:</div>
+   <g:textField name="lastName" value='${params.lastName}'></g:textField>
+   <input type="image"
+     src="${createLinkTo(dir:'images', file: 'favicon.ico')}"
+     name="searchButton" id="searchButton" border="0">
+    </input>
+ </g:form>
+ <div style='color:red'>
+  ${request.notfound}
+ </div>
+ <g:link controller='admin' >Admin</g:link>
 </body>
 </html>

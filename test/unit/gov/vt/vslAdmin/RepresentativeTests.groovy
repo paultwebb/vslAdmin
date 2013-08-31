@@ -2,9 +2,7 @@ package gov.vt.vslAdmin
 
 
 
-import gov.vt.vslAdmin.Representative;
 import grails.test.mixin.*
-
 import org.junit.*
 
 /**

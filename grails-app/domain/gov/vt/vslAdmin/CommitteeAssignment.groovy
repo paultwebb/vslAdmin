@@ -10,7 +10,7 @@ class CommitteeAssignment {
 	
 	// RELATIONSHIP PROPERTIES
 	static belongsTo = [
-		representative:Representative,
+		representative:Person,
 		committee:Committee
 	]
 	

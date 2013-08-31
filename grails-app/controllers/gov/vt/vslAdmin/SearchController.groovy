@@ -21,7 +21,23 @@ class SearchController {
 			redirect(action:'show', controller:'Term',id:term.id)
 			// render("${term.seat} ${term.representative} (${term.party}) ${term.session} ${term.district} ")
 		} else {
-		  render("Seat ${params.seat} not found")
+		  // set the request variable to be used by the view
+		  request.notfound = "Representative seat/plate ${params.seat} not found"
+		  // redirect back to the search page
+		  render(view:'index',model:request.notfound)
+		  // return [request.notfound] // this would go to findRes.gsp
+		}
+	}
+	
+	def findPerson() {
+		//render(params)
+		def person  = Person.findByLastName(params.lastName)
+		if (person) {
+			redirect(action:'list', controller:'Person')
+		} else {
+		  // set the request variable to be used bby the view
+		  request.notfound = "No people with the last name of ${params.lastName} found"
+		  render(view:'index',model:request.notfound)
 		}
 	}
 }
