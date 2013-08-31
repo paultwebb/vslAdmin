@@ -1,0 +1,151 @@
+PersonId,currentSeat,name,lastName,firstName,middleName,preferredName,homeTown,currentParty,firstTerm,birthTown,birthState,birthCountry,birthMonth,birthDay,birthYear,phoneOffice,phoneCell,phoneHome,address1,address2,city,state,zip,district
+121,1,"Smith, Shapleigh",Smith, Shapleigh,,, Morrisville,D,*,Danbury,CT,,12,16,1965,(802) 888-9214,,,369 Farm Hill Rd.,, Morrisville,VT,5661,LAMOILLE-WASHINGTON
+55,2,"Helm, Robert, G.",Helm, Robert, G.,, Fair Haven,R,*,Canandaqua,NY,,10,28,1949,(802) 265-2145,,,647 Route  4A East,, Fair Haven,VT,5743,RUTLAND-3
+135,3,"Townsend, Maida, F.",Townsend, Maida, F.,, South Burlington,D,,,,,,,,(802) 862-7404,,,232 Patchen Rd.,, South Burlington,VT,5403,CHITTENDEN-7-4
+134,4,"Townsend, Lawrence, E.",Townsend, Lawrence, E.,, Randolph,D,*,Bethel,VT,,6,10,1947,(802) 728-9646,,,45 S. Pleasant St.,, Randolph,VT,5060,ORANGE-WASHINGTON-ADDISON
+91,5,"McFaun, Francis, M.",McFaun, Francis, M.,, Barre Town,R,*,Cambridge,MA,,4,19,1939,(802) 479-9843,,,97 Sunset Rd.,, Barre Town,VT,5641,WASHINGTON-2
+78,6,"Lewis, Patti, J.",Lewis, Patti, J.,, Berlin,R,*,Montpelier,VT,,8,25,1956,(802) 223-6319,,,449 East Rd.,, Berlin,VT,05641-5388,WASHINGTON-1
+119,7,"Shaw, Loren, T.",Shaw, Loren, T.,, Derby,R,,Dover,NH,,12,2,1941,(802) 766-5022,,,320 Foxwood Lane,, Derby,VT,5829,ORLEANS-1
+122,8,"South, Robert, C.",South, Robert, C.,, St. Johnsbury Ctr.,D,*,Bradford,PA,,2,13,1968,(802) 748-0873,,,P.O. Box 206,, St. Johnsbury Ctr.,VT,05863-0206,CALEDONIA-3
+24,9,"Consejo, Michel, A.",Consejo, Michel, A.,, Sheldon,D,*,Paris,,France,12,9,1950,(802) 285-6070,,,322 Rice Hill Rd.,, Sheldon,VT,5483,FRANKLIN-4
+18,10,"Christie, Kevin, B.",Christie, Kevin, B.,, White River Jct.,D,*,Hartford,CT,,4,7,1950,(802) 295-1066,,,682 Christian St.,, White River Jct.,VT,5001,WINDSOR-4-2
+138,11,"Van Wyck, Warren",Van Wyck, Warren,,Slick, Ferrisburgh,R,,Paterson,NJ,,10,25,1952,(802) 877-2169,,,3502 Middlebrook Rd.,, Ferrisburgh,VT,5456,ADDISON-3
+112,12,"Ralston, Paul, D.",Ralston, Paul, D.,, Middlebury,D,*,,,,,,,(802) 349-7100,,,26 Stewart Lane,, Middlebury,VT,5753,ADDISON-1
+82,13,"Manwaring, Ann, P.",Manwaring, Ann, P.,, Wilmington,D,*,Westerly,RI,,7,14,1940,(802) 464-2150,,,P.O. Box 1089,, Wilmington,VT,5363,WINDHAM-6
+139,14,"Vowinkel, Sheila, J.",Vowinkel, Sheila, J.,, White River Jct.,D,,,,,,,,(802) 369-9934,,,67 Raymond Circle,, White River Jct.,VT,5001,WINDSOR-4-2
+44,15,"Frank, William, R.",Frank, William, R.,, Underhill,D,*,,MI,,,,,(802) 899-3136,,,19 Poker Hill Rd.,, Underhill,VT,5489,CHITTENDEN-3
+14,16,"Campion, Brian, A.",Campion, Brian, A.,, Bennington,D,*,Albany,NY,,12,11,1970,(802) 753-7705,,,1292 West Rd.,, Bennington,VT,5201,BENNINGTON-2-1
+8,17,"Branagan, Carolyn, W.",Branagan, Carolyn, W.,, Georgia,R,*,Windsor,VT,,6,5,1954,(802) 527-7694,,,1295 Ballard Rd.,, Georgia,VT,5478,FRANKLIN-1
+42,18,"Feltus, Martha, A.",Feltus, Martha, A.,, Lyndonville,R,,Kansas City,MO,,4,30,1946,(802) 626-9516,,,77 Old Coach Rd.,, Lyndonville,VT,5851,CALEDONIA-4
+126,19,"Strong, Vicki, M.",Strong, Vicki, M.,, Irasburg,R,*,,,,,,,(802) 754-2790,,,1367 Creek Rd.,, Irasburg,VT,5845,ORLEANS-CALEDONIA
+35,20,"Donahue, Anne, B.",Donahue, Anne, B.,, Northfield,R,*,Burlington,VT,,3,20,1956,(802) 485-6431,,,148 Donahue Dr.,, Northfield,VT,5663,WASHINGTON-1
+114,21,"Russell, Herbert, A.",Russell, Herbert, A.,, Rutland,D,*,Seneca Falls,NY,,3,23,1953,(802) 779-7370,,,188 State St.,, Rutland,VT,5701,RUTLAND-5-3
+140,22,"Waite-Simpson, Linda, J.",Waite-Simpson, Linda, J.,, Essex Jct.,D,*,,,,,,,(802) 872-0499,,,76 Beech St.,, Essex Jct.,VT,5452,CHITTENDEN-8-2
+16,23,"Carr, Stephen, A.",Carr, Stephen, A.,, Brandon,D,,Rutland,VT,,11,13,1949,(802) 247-3921,,,27 East Prospect St.,, Brandon,VT,5733,RUTLAND-6
+12,24,"Burke, Mollie, Sullivan",Burke, Mollie, Sullivan,, Brattleboro,P,*,Buffalo,NY,,,,,(802) 257-4844,,,62 West St.,, Brattleboro,VT,5301,WINDHAM-2-2
+20,25,"Cole, Joanna, E.",Cole, Joanna, E.,, Burlington,D,,Troy,NY,,,,,(802) 660-7175,,,108 Rivers Edge Dr.,, Burlington,VT,8408,CHITTENDEN-6-1
+71,26,"Krebs, Robert, C.",Krebs, Robert, C.,, South Hero,D,*,Potsdam,NY,,12,16,1947,(802) 372-4567,,,134 East Shore Rd.,, South Hero,VT,5486,GRAND ISLE-CHITTENDEN
+41,27,"Fay, Michelle, B.",Fay, Michelle, B.,, St. Johnsbury,D,,Portsmouth,VA,,10,8,1971,(802) 748-1291,,,3 Pine St.,, St. Johnsbury,VT,5819,CALEDONIA-3
+132,28,"Toleno, Tristan, D.",Toleno, Tristan, D.,, Brattleboro,D,,,,,,,,(802) 579-5511,,,33 Highlawn Rd.,, Brattleboro,VT,5301,WINDHAM-2-3
+45,29,"French, Patsy, T.",French, Patsy, T.,, Randolph,D,*,Randolph,VT,,8,22,1949,(802) 728-9421,,,886 Harlow Hill,, Randolph,VT,5060,ORANGE-WASHINGTON-ADDISON
+52,30,"Head, Helen, J.",Head, Helen, J.,, South Burlington,D,*,Griffin,GA,,5,12,1953,(802) 862-2267,,,65 East Terrace,, South Burlington,VT,5403,CHITTENDEN-7-3
+127,31,"Stuart, Valerie, A.",Stuart, Valerie, A.,, Brattleboro,D,*,Smyrna,TN,,6,13,1957,(802) 257-0249,,,520 Meadowbrook Rd.,, Brattleboro,VT,5301,WINDHAM-2-1
+73,32,"Kupersmith, Michele, F.",Kupersmith, Michele, F.,, South Burlington,D,*,Burlington,VT,,2,3,1953,(802) 863-1814,,,23 Brewer Parkway,, South Burlington,VT,5403,CHITTENDEN-7-1
+110,33,"Quimby, Constance, N.",Quimby, Constance, N.,, Concord,R,,,VT,,,,,(802) 695-2575,,,579 Main St.,, Concord,VT,5824,ESSEX-CALEDONIA
+7,34,"Bouchard, Robert, A.",Bouchard, Robert, A.,Bob, Colchester,R,*,Colchester,VT,,2,7,1955,(802) 879-2522,,,126 Leclair Dr.,, Colchester,VT,5446,CHITTENDEN-9-1
+3,35,"Batchelor, Lynn, D.",Batchelor, Lynn, D.,, Derby Line,R,*,Ossining,NY,,7,31,,(802) 873-3006,,,165 Beach St.,, Derby Line,VT,5830,ORLEANS-1
+40,36,"Fagan, Peter, J.",Fagan, Peter, J.,, Rutland,R,*,Rutland,VT,,6,12,1957,(802) 342-1214,,,17 Clinton Ave.,, Rutland,VT,5701,RUTLAND-5-1
+56,37,"Higley, Mark, A.",Higley, Mark, A.,, Lowell,R,*,Brattleboro,VT,,3,5,1956,(802) 744-6379,,,429 Baraw Rd.,, Lowell,VT,5847,ORLEANS-LAMOILLE
+58,38,"Hubert, Ronald, E.",Hubert, Ronald, E.,, Milton,R,*,Elk City,OK,,8,28,1952,(802) 893-1368,,,68 Woodcrest Circle,, Milton,VT,5468,CHITTENDEN-10
+5,39,"Bissonnette, Clement, J.",Bissonnette, Clement, J.,, Winooski,D,*,Winooski,VT,,,,,(802) 655-9527,,,11 Dufresne Dr.,, Winooski,VT,5404,CHITTENDEN-6-7
+59,40,"Huntley, Mark, A.",Huntley, Mark, A.,, Cavendish,D,,Proctor,VT,,6,6,1956,(802) 236-6722,,,535 Center Rd.,, Cavendish,VT,5142,WINDSOR-2
+47,41,"Gallivan, Anne, L.",Gallivan, Anne, L.,, North Chittenden,D,,Framingham,MA,,2,11,1949,(802) 483-2854,,,35 German Hill Farm Rd.,, North Chittenden,VT,5763,RUTLAND-WINDSOR-1
+113,42,"Ram, Kesha, K.",Ram, Kesha, K.,, Burlington,D,*,Santa Monica,CA,,8,2,1986,(802) 881-4433,,,31 N. Prospect St.,, Burlington,VT,5401,CHITTENDEN-6-4
+128,43,"Sweaney, Donna, G.",Sweaney, Donna, G.,, Windsor,D,*,Steubenville,OH,,6,18,1943,(802) 674-5175,,,2 Runnemede Lane,, Windsor,VT,5089,WINDSOR-1
+13,44,"Buxton, Sarah, E.",Buxton, Sarah, E.,, Tunbridge,D,*,Orwell,VT,,,,,(802) 233-0274,,,318 VT Route 110,, Tunbridge,VT,5077,WINDSOR-ORANGE-1
+133,45,"Toll, Catherine, B.",Toll, Catherine, B.,, Danville,D,*,,,,8,8,1959,(802) 684-3671,,,2766 Peacham Rd.,, Danville,VT,5828,CALEDONIA-WASHINGTON
+19,46,"Clarkson, Alison, H.",Clarkson, Alison, H.,, Woodstock,D,*,Buffalo,NY,,4,26,1955,(802) 457-4627,,,18 Golf Ave.,, Woodstock,VT,5091,WINDSOR-5
+111,47,"Rachelson, Barbara",Rachelson, Barbara,,, Burlington,D,,Glen Ridge,NJ,,7,25,1957,(802) 862-1290,,,205 Summit St.,, Burlington,VT,5401,CHITTENDEN-6-6
+77,48,"Lenes, Joan, G.",Lenes, Joan, G.,, Shelburne,D,*,New Britain,CT,,2,24,1951,(802) 985-8515,,,197 Governor's Lane,, Shelburne,VT,5482,CHITTENDEN-5-2
+85,49,"Martin, Cynthia, T.",Martin, Cynthia, T.,, Springfield,D,*,Floral Park,NY,,4,11,1940,(802) 886-8470,,,903 French Meadow Rd.,, Springfield,VT,5156,WINDSOR-3-2
+51,50,"Haas, Sandy, J.",Haas, Sandy, J.,, Rochester,P,*,Orange,CA,,5,8,1946,(802) 767-4751,,,360 S. Main St.,, Rochester,VT,5767,WINDSOR-RUTLAND
+30,51,"Davis, Susan, Hatch",Davis, Susan, Hatch,, West Topsham,P,*,Barre,VT,,1,12,1953,(802) 439-5103,,,75 Notchend Rd.,, West Topsham,VT,5086,ORANGE-1
+105,52,"Pearson, Christopher, A.",Pearson, Christopher, A.,, Burlington,P,*,,AB,Canada,1,5,1973,(802) 860-3933,,,12 Brookes Ave.,, Burlington,VT,5401,CHITTENDEN-6-4
+142,53,"Weed, Cynthia, A.",Weed, Cynthia, A.,, Enosburg Falls,P,,Springfield,MA,,5,20,1953,(802) 933-2545,,,374 Weeds Lane,, Enosburg Falls,VT,5450,FRANKLIN-7
+124,54,"Stevens, Thomas, S.",Stevens, Thomas, S.,, Waterbury,D,*,New Haven,CT,,,,1961,(802) 244-4164,,,12 Winooski St.,, Waterbury,VT,5676,WASHINGTON-CHITTENDEN
+65,55,"Keenan, Kathleen, C.",Keenan, Kathleen, C.,, St. Albans,D,*,Burlington,VT,,5,7,1940,(802) 524-5013,,,8 Thorpe Ave.,, St. Albans,VT,5478,FRANKLIN-3-1
+92,56,"Michelsen, Kristina, I.",Michelsen, Kristina, I.,, Hardwick,D,,New York City,NY,,10,6,1965,(802) 535-7468,,,223 Center Rd.,, Hardwick,VT,5843,CALEDONIA-2
+88,57,"McCarthy, Michael, D.",McCarthy, Michael, D.,, St. Albans,D,,,,,,,,(802) 233-7587,,,321 Lake St.,, St. Albans,VT,5478,FRANKLIN-3-1
+72,58,"Krowinski, Jill, L.",Krowinski, Jill, L.,, Burlington,D,*,,,,,,,(802) 363-3907,,,27 Spring Street,, Burlington,VT,5401,CHITTENDEN-6-3
+109,59,"Pugh, Ann, D.",Pugh, Ann, D.,, South Burlington,D,*,Rye,NY,,,,,(802) 863-6705,,,67 Bayberry Lane,, South Burlington,VT,5403,CHITTENDEN-7-2
+68,60,"Klein, Anthony, W.",Klein, Anthony, W.,, Montpelier,D,*,Bronx,NY,,3,22,1947,(802) 223-8926,,,95 Powder Horn Glen Rd.,, Montpelier,VT,5602,WASHINGTON-5
+38,61,"Emmons, Alice, M.",Emmons, Alice, M.,, Springfield,D,*,Springfield,VT,,2,14,1955,(802) 885-5893,,,318 Summer St.,, Springfield,VT,5156,WINDSOR-3-2
+26,62,"Corcoran, Timothy, R.",Corcoran, Timothy, R.,, Bennington,D,*,Bennington,VT,,3,17,1973,(802) 447-0929,,,8 Corey Lane,, Bennington,VT,5201,BENNINGTON-2-1
+57,63,"Hooper, Mary, S.",Hooper, Mary, S.,, Montpelier,D,*,Heidelberg,,Germany,,,,(802) 223-2892,,,882 North St.,, Montpelier,VT,5602,WASHINGTON-4
+69,64,"Koch, Thomas, F.",Koch, Thomas, F.,, Barre,R,*,Hackensack,NJ,,11,24,1942,(802) 476-4141,,,326 Lowery Rd.,, Barre,VT,5641,WASHINGTON-2
+32,65,"Devereux, Dennis, J.",Devereux, Dennis, J.,, Belmont,R,*,Rutland,VT,,3,10,1951,(802) 259-2460,,,P.O. Box 1, Route 155, Belmont,VT,5730,RUTLAND-WINDSOR-2
+83,66,"Marcotte, Michael, J.",Marcotte, Michael, J.,, Newport,R,*,Newport,VT,,5,31,1958,(802) 334-6302,,,106 Private Pond Rd.,, Newport,VT,5855,ORLEANS-2
+10,67,"Browning, Cynthia, M.",Browning, Cynthia, M.,, Arlington,D,*,Rochester,NY,,4,18,1953,(802) 375-9019,,,P.O. Box 389,, Arlington,VT,5250,BENNINGTON-4
+125,68,"Stevens, William, C.",Stevens, William, C.,, Shoreham,I,*,Rochester,NY,,3,29,1955,(802) 897-7031,,,1329 Lapham Bay Rd.,, Shoreham,VT,5770,ADDISON-RUTLAND
+21,69,"Condon, James, O.",Condon, James, O.,, Colchester,D,*,New London,CT,,5,19,1958,(802) 655-5764,,,500A Dalton Dr.,, Colchester,VT,5446,CHITTENDEN-9-1
+46,70,"Gage, Douglas, A.",Gage, Douglas, A.,, Rutland,R,,Reading,PA,,5,13,1959,(802) 773-0616,,,41 Hazel St.,, Rutland,VT,5701,RUTLAND-5-4
+15,71,"Canfield, William, P.",Canfield, William, P.,, Fair Haven,R,*,Rutland,VT,,,,,(802) 265-4428,,,12 Pine St.,, Fair Haven,VT,5743,RUTLAND-3
+33,72,"Dickinson, Eileen Lynn, G.",Dickinson, Eileen Lynn, G.,, St. Albans,R,*,Teaneck,NJ,,10,8,1949,(802) 524-3404,,,69 Button Rd.,, St. Albans,VT,5478,FRANKLIN-3-2
+34,73,"Donaghy, Andrew, P.",Donaghy, Andrew, P.,, Poultney,R,*,Brooklyn,NY,,3,14,1942,(802) 287-9693,,,146 Lakeview Hill Rd.,, Poultney,VT,05764-9179,RUTLAND-1
+97,74,"Morrissey, Mary, A.",Morrissey, Mary, A.,, Bennington,R,*,Bennington,VT,,3,26,1957,(802) 442-2092,,,228 Dewey St.,, Bennington,VT,5201,BENNINGTON-2-2
+28,75,"Cupoli, Lawrence, P.",Cupoli, Lawrence, P.,, Rutland,R,,Rutland,VT,,4,14,1947,(802) 747-4399,,,57 Piedmont Pond Rd.,, Rutland,VT,5701,RUTLAND-5-2
+9,76,"Brennan, Patrick, M.",Brennan, Patrick, M.,, Colchester,R,*,Colchester,VT,,6,11,1953,(802) 863-3773,,,96 Tanglewood Dr.,, Colchester,VT,5446,CHITTENDEN-9-2
+116,77,"Scheuermann, Heidi, E.",Scheuermann, Heidi, E.,, Stowe,R,*,Burlington,VT,,4,14,1971,(802) 253-2275,,,P.O. Box 908,, Stowe,VT,5672,LAMOILLE-1
+48,78,"Goodwin, Charles, M.",Goodwin, Charles, M.,, Weston,I,,Springfield,VT,,10,2,1946,(802) 824-6817,,,440 Route 100,, Weston,VT,5161,WINDHAM-BENNINGTON-WINDSOR
+39,79,"Evans, Debbie, G.",Evans, Debbie, G.,, Essex Jct.,D,*,McKeesport,PA,,7,27,1952,(802) 878-4317,,,53 Greenfield Rd.,, Essex Jct.,VT,5452,CHITTENDEN-8-1
+86,80,"Martin, Linda, J.",Martin, Linda, J.,, Wolcott,D,*,Concord,NH,,3,31,1951,(802) 888-5654,,,80 Wildermont,, Wolcott,VT,5680,LAMOILLE-2
+148,81,"Yantachka, Michael, I.",Yantachka, Michael, I.,, Charlotte,D,*,Swoyersville,PA,,2,15,1947,(802) 425-3960,,,393 Natures Way,, Charlotte,VT,5445,CHITTENDEN-4-1
+87,82,"Masland, James, W.",Masland, James, W.,, Thetford Center,D,*,Hanover,NH,,12,7,1948,(802) 785-4146,,,714 Pero Hill Rd.,, Thetford Center,VT,5075,WINDSOR-ORANGE-2
+43,83,"Fisher, Michael",Fisher, Michael,,, Lincoln,D,*,Philadelphia,PA,,12,7,1965,(802) 453-5517,,,364 Cobb Hill Rd.,, Lincoln,VT,5443,ADDISON-4
+100,84,"Nuovo, Betty, A.",Nuovo, Betty, A.,, Middlebury,D,*,Englewood,NJ,,12,10,1931,(802) 388-2024,,,70 Maple St., Unit 308, Middlebury,VT,5753,ADDISON-1
+74,85,"Lanpher, Diane, M.",Lanpher, Diane, M.,, Vergennes,D,*,Buffalo,NY,,11,26,1955,(802) 877-2230,,,194 S. Maple St., P.O. Box 165, Vergennes,VT,5491,ADDISON-3
+2,86,"Bartholomew, John, L.",Bartholomew, John, L.,, Hartland,D,,Philadelphia,PA,,2,14,1955,(802) 436-2151,,,23 Linden Rd.,, Hartland,VT,5048,WINDSOR-1
+23,87,"Conquest, Charles, W.",Conquest, Charles, W.,, Wells River,D,*,Cleveland,OH,,10,17,1961,(802) 757-3803,,,409 Bible Hill Rd.,, Wells River,VT,5081,ORANGE-CALEDONIA
+150,88,"Zagar, Teo, E.",Zagar, Teo, E.,, Barnard,D,*,,,Slovenia,,,1978,(802) 558-3966,,,P.O. Box 875,, Barnard,VT,5031,WINDSOR-4-1
+95,89,"Mook, Anne, H.",Mook, Anne, H.,, Bennington,D,*,Northampton,MA,,11,24,1947,(802) 442-5028,,,228 Washington Ave.,, Bennington,VT,5201,BENNINGTON-2-2
+89,90,"McCormack, Curtis, A.",McCormack, Curtis, A.,, Burlington,D,,Queens,NY,,2,28,1952,(802) 318-2585,,,221 North Winooski Ave.,, Burlington,VT,5401,CHITTENDEN-6-3
+29,91,"Dakin, Leigh, J.",Dakin, Leigh, J.,, Chester,D,*,,,,,,,(802) 875-3456,,,P.O. Box 467,, Chester,VT,5143,WINDSOR-3-1
+149,92,"Young, Samuel, R.",Young, Samuel, R.,, Glover,D,*,Newport,VT,,5,29,1978,(802) 321-0365,,,P.O. Box 10,, Glover,VT,5875,ORLEANS-CALEDONIA
+123,93,"Spengler, Kristy, K.",Spengler, Kristy, K.,, Colchester,D,*,,NY,,3,5,1953,(802) 864-6567,,,463 Shore Acres Dr.,, Colchester,VT,5446,CHITTENDEN-9-2
+102,94,"O'Sullivan, Jean, D.",O'Sullivan, Jean, D.,, Burlington,D,*,Greenwich,CT,,7,12,1945,(802) 658-0492,,,37 Village Green,, Burlington,VT,5408,CHITTENDEN-6-2
+62,95,"Johnson, Mitzi",Johnson, Mitzi,,, South Hero,D,*,Clifton Park,NY,,11,18,1970,(802) 363-4448,,,P.O. Box 144,, South Hero,VT,5486,GRAND ISLE-CHITTENDEN
+53,96,"Heath, Martha, P.",Heath, Martha, P.,, Westford,D,*,Newport,VT,,12,21,1946,(802) 893-1291,,,342 Rollin Irish Rd.,, Westford,VT,5494,CHITTENDEN-8-3
+17,97,"Cheney, Margaret, R.",Cheney, Margaret, R.,, Norwich,D,*,Hanover,NH,,,,,(802) 649-3039,,,P.O. Box 521,, Norwich,VT,5055,WINDSOR-ORANGE-2
+25,98,"Copeland-Hanzas, Sarah, L.",Copeland-Hanzas, Sarah, L.,, Bradford,D,*,Lake Forest,IL,,7,9,1970,(802) 222-3536,,,P.O. Box 43,, Bradford,VT,5033,ORANGE-2
+50,99,"Greshin, Adam, M.",Greshin, Adam, M.,, Warren,I,*,Huntington,NY,,9,9,1960,(802) 583-3223,,,611 Eurich Pond Rd.,, Warren,VT,5674,WASHINGTON-7
+99,100,"Myers, Linda, K.",Myers, Linda, K.,, Essex Jct.,R,*,Nanty Glo,PA,,8,18,1940,(802) 878-3514,,,51 Forest Rd.,, Essex Jct.,VT,5452,CHITTENDEN-8-1
+130,101,"Terenzini, Thomas, P.",Terenzini, Thomas, P.,, Rutland,R,,Proctor,VT,,10,9,1948,(802) 855-1945,,,34B Chasanna Dr.,, Rutland,VT,5701,RUTLAND-4
+66,102,"Kilmartin, Duncan, F.",Kilmartin, Duncan, F.,, Newport,R,*,Terre Haute,IN,,6,30,1942,(802) 334-7883,,,76 Widgeon Dr.,, Newport,VT,5855,ORLEANS-2
+143,103,"Wilson, Jeffrey, D.",Wilson, Jeffrey, D.,, Manchester,D,*,Pittsfield,MA,,2,10,1955,(802) 362-3786,,,307 Bromley Brook Rd.,, Manchester,VT,5255,BENNINGTON-4
+4,104,"Beyor, Stephen, C.",Beyor, Stephen, C.,Steve, Highgate Springs,R,,Highgate,VT,,2,14,1947,(802) 868-3456,,,P.O. Box 287,, Highgate Springs,VT,5460,FRANKLIN-5
+104,105,"Pearce, Albert Chuck, E.",Pearce, Albert Chuck, E.,, Richford,R,*,Greenfield,MA,,3,30,1943,(802) 848-7813,,,84 Magoon Rd.,, Richford,VT,05476-9639,FRANKLIN-5
+96,106,"Moran, John, T.",Moran, John, T.,, Wardsboro,D,*,Cleveland,OH,,5,5,1940,(802) 896-9408,,,58 Hi-Hopes Rd.,, Wardsboro,VT,5355,WINDHAM-BENNINGTON
+144,107,"Winters, Philip, C.",Winters, Philip, C.,, Williamstown,R,*,Barre ,VT,,4,8,1937,(802) 433-5590,,,1374 Chelsea Rd.,, Williamstown,VT,05679-9727,ORANGE-1
+76,108,"Lawrence, Richard, H.",Lawrence, Richard, H.,, Lyndonville,R,*,St. Johnsbury,VT,,7,5,1942,(802) 626-5917,,,194 Bean Pond Rd.,, Lyndonville,VT,5851,CALEDONIA-4
+120,109,"Smith, Harvey, T.",Smith, Harvey, T.,, New Haven,R,*,Nashua,NH,,6,2,1945,(802) 877-2712,,,2516 Lime Kiln Road,, New Haven,VT,5472,ADDISON-5
+137,110,"Turner, Donald, H.",Turner, Donald, H.,, Milton,R,*,Burlington,VT,,7,19,1964,(802) 893-1419,,,32 Brookside Dr.,, Milton,VT,5468,CHITTENDEN-10
+115,111,"Savage, Brian, K.",Savage, Brian, K.,, Swanton,R,*,St. Albans,VT,,4,12,1955,(802) 868-3566,,,17 Linda Ave.,, Swanton,VT,5488,FRANKLIN-4
+54,112,"Hebert, Michael, J.",Hebert, Michael, J.,, Vernon,R,*,Holyoke,MA,,4,13,1950,(802) 451-9088,,,P.O. Box 120,, Vernon,VT,5354,WINDHAM-1
+147,113,"Wright, Kurt",Wright, Kurt,,, Burlington,R,*,Middlebury,VT,,,,,(802) 658-1410,,,31 Vine St.,, Burlington,VT,5401,CHITTENDEN-6-1
+70,114,"Komline, Patricia, C.",Komline, Patricia, C.,, Dorset,R,*,Brooklyn,NY,,1,23,1961,(802) 867-4232,,,P.O. Box 513,, Dorset,VT,5251,BENNINGTON-RUTLAND
+11,115,"Burditt, Thomas, B.",Burditt, Thomas, B.,, West Rutland,R,*,Rutland,VT,,8,18,1956,(802) 438-0031,,,1118 Clarendon Ave.,, West Rutland,VT,5777,RUTLAND-2
+118,116,"Shaw, Charles, H.",Shaw, Charles, H.,, Florence,R,*,Middlebury,VT,,1,8,1948,(802) 483-2398,,,910 Markowski Rd.,, Florence,VT,5744,RUTLAND-6
+64,117,"Juskiewicz, Bernard, C.",Juskiewicz, Bernard, C.,, Cambridge,R,,Northhampton,MA,,4,6,1943,(802) 644-5606,,,668 North Cambridge Rd.,, Cambridge,VT,5444,LAMOILLE-3
+94,118,"Mitchell, John, I.",Mitchell, John, I.,, Fairfax,R,,Margaretville,NY,,6,12,1946,(802) 735-3900,,,1135 Main St.,, Fairfax,VT,5454,FRANKLIN-2
+63,119,"Johnson, William, F.",Johnson, William, F.,, Canaan,R,*,Hanover,NH,,9,17,1952,(802) 277-8329,,,3603 Rte. 102,, Canaan,VT,5903,ESSEX-CALEDONIA-ORLEANS
+136,120,"Trieber, Matthew, A.",Trieber, Matthew, A.,, Bellows Falls,D,*,Lynbrook,NY,,4,17,1980,(802) 376-1134,,,82 Atkinson St.,, Bellows Falls,VT,5101,WINDHAM-3
+75,121,"Larocque, Leigh, B.",Larocque, Leigh, B.,, St. Johnsbury,R,*,Brownington,VT,,3,6,1934,(802) 748-3481,,,1079 Old Silo Rd.,, St. Johnsbury,VT,05819-8994,CALEDONIA-1
+22,122,"Connor, Daniel, F.",Connor, Daniel, F.,, Fairfield,D,,,,,,,,(802) 827-4436,,,4367 Route 36,, Fairfield,VT,5455,FRANKLIN-6
+90,123,"McCullough, James, M.",McCullough, James, M.,, Williston,D,*,Burlington,VT,,7,14,1945,(802) 878-2180,,,592 Governor Chittenden Rd.,, Williston,VT,5495,CHITTENDEN-2
+79,124,"Lippert, William, J.",Lippert, William, J.,, Hinesburg,D,*,Port Trevorton,PA,,1,18,1950,(802) 482-3528,,,2751 Baldwin Rd.,, Hinesburg,VT,5461,CHITTENDEN-4-2
+145,125,"Wizowaty, Susan, L.",Wizowaty, Susan, L.,, Burlington,D,*,Cincinnati,OH,,1,6,1954,(802) 864-5651,,,177 Locust Terrace,, Burlington,VT,5401,CHITTENDEN-6-5
+98,126,"Mrowicki, Michael",Mrowicki, Michael,,, Putney,D,*,,,,,,,(802) 387-8787,,,299 South Pine Banks Rd.,, Putney,VT,5346,WINDHAM-4
+146,127,"Woodward, Mark, E.",Woodward, Mark, E.,, Johnson,D,*,Schenectady,NY,,5,17,1956,(802) 635-7166,,,110 Woodward Rd.,, Johnson,VT,5656,LAMOILLE-2
+101,128,"O'Brien, Anne, T.",O'Brien, Anne, T.,, Richmond,D,*,Northampton,MA,,1,27,1956,(802) 434-4250,,,2406 Hinesburg Rd.,, Richmond,VT,5477,CHITTENDEN-1
+81,129,"Malcolm, John, W.",Malcolm, John, W.,, Pawlet,D,*,Abington,PA,,11,1,1950,(802) 325-3424,,,1822 Rupert Mountain Rd.,, Pawlet,VT,5761,RUTLAND-BENNINGTON
+108,130,"Potter, David, E.",Potter, David, E.,, Clarendon,D,*,Proctor,VT,,12,6,1943,(802) 438-5385,,,462 East Tinmouth Rd.,, Clarendon,VT,5759,RUTLAND-2
+61,131,"Jewett, Willem, W.",Jewett, Willem, W.,, Ripton,D,*,New Rochelle,NY,,8,23,1963,(802) 388-0320,,,P.O. Box 129,, Ripton,VT,5766,ADDISON-2
+129,132,"Taylor, Therese, M.",Taylor, Therese, M.,, Barre,D,*,Rome,NY,,4,24,1958,(802) 476-4235,,,45 Granite St. #2,, Barre,VT,5641,WASHINGTON-3
+141,133,"Webb, Kathryn, L.",Webb, Kathryn, L.,, Shelburne,D,*,Lewiston,ME,,,,,(802) 985-2789,,,1611 Harbor Rd.,, Shelburne,VT,5482,CHITTENDEN-5-1
+37,134,"Ellis, Rebecca, M.",Ellis, Rebecca, M.,, Waterbury Center,D,*,Middlebury,VT,,8,9,1965,(802) 244-5687,,,1531 Ripley Road,, Waterbury Center,VT,5677,WASHINGTON-CHITTENDEN
+1,135,"Ancel, Janet",Ancel, Janet,,, Calais,D,*,Boston,MA,,4,7,,(802) 223-5350,,,P.O. Box 123,, Calais,VT,5648,WASHINGTON-1
+31,136,"Deen, David, L.",Deen, David, L.,, Putney,D,*,Abington,PA,,12,20,1944,(802) 869-3116,,,5607 Westminster West Rd.,, Putney,VT,5346,WINDHAM-4
+67,137,"Kitzmiller, Warren, F.",Kitzmiller, Warren, F.,, Montpelier,D,*,Erie,PA,,3,21,1943,(802) 229-0878,,,138 North St.,, Montpelier,VT,5602,WASHINGTON-4
+84,138,"Marek, Richard, J.",Marek, Richard, J.,, Newfane,D,*,Grand Rapids,MI,,12,29,1946,(802) 365-9107,,,P.O. Box 476,, Newfane,VT,5345,WINDHAM-5
+103,139,"Partridge, Carolyn, W.",Partridge, Carolyn, W.,, Windham,D,*,Hackensack,NJ,,1,21,1949,(802) 874-4182,,,1612 Old Cheney Rd.,, Windham,VT,5359,WINDHAM-3
+49,140,"Grad, Maxine, Jo",Grad, Maxine, Jo,, Moretown,D,*,Great Neck,NY,,8,10,1960,(802) 496-7667,,,301 Paddy Hill Rd.,, Moretown,VT,5660,WASHINGTON-7
+107,141,"Poirier, Paul, N.",Poirier, Paul, N.,, Barre,I,*,Lewiston,ME,,9,30,1948,(802) 476-7870,,,33 Abbott Ave.,, Barre,VT,5641,WASHINGTON-3
+80,142,"Macaig, Terence, D.",Macaig, Terence, D.,, Williston,D,*,,,,10,23,1938,(802) 878-3872,,,82 Pamela Ct.,, Williston,VT,5495,CHITTENDEN-2
+131,143,"Till, George, W.",Till, George, W.,, Jericho,D,*,Pittsburgh,PA,,11,7,1952,(802) 899-2984,,,74 Foothills Dr.,, Jericho,VT,5465,CHITTENDEN-3
+36,144,"Donovan, Johannah, L.",Donovan, Johannah, L.,, Burlington,D,*,Burlington,VT,,9,18,1944,(802) 863-4634,,,38 Bayview St.,, Burlington,VT,5401,CHITTENDEN-6-5
+117,145,"Sharpe, David, D.",Sharpe, David, D.,, Bristol,D,*,Detroit,MI,,,,,(802) 453-2754,,,1209 Meehan Rd.,, Bristol,VT,5443,ADDISON-4
+93,146,"Miller, Alice",Miller, Alice,,, Shaftsbury,D,*,Long Island,NY,,3,22,1939,(802) 442-9825,,,88 Horton Hill Rd.,, Shaftsbury,VT,5262,BENNINGTON-3
+6,147,"Botzow, William, G. F.",Botzow, William, G. F.,Bill, Bennington,D,*,New York City,NY,,9,29,1945,(802) 447-7717,,,1225 South Stream Rd.,, Bennington,VT,5201,BENNINGTON-1
+27,148,"Cross, George, C.",Cross, George, C.,, Winooski,D,,Brattleboro,VT,,,,1935,(802) 655-4611,,,82 Dufresne Dr.,, Winooski,VT,5404,CHITTENDEN-6-7
+106,149,"Peltz, Philip",Peltz, Philip,,, Woodbury,D,*,Albany,NY,,4,21,1946,(802) 472-6524,,,93 Bailey Bridge Rd.,, Woodbury,VT,5681,LAMOILLE-WASHINGTON
+60,150,"Jerman, Timothy",Jerman, Timothy,,, Essex Jct.,D,*,Stamford,CT,,1,24,1949,(802) 878-2972,,,5 Sycamore Lane,, Essex Jct.,VT,5452,CHITTENDEN-8-2

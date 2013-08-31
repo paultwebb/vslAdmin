@@ -1,0 +1,155 @@
+committeeId,repId,role,committeeCode,rep_lookup,committee_lookup
+1,103,Chair,AGRI,Partridge of  Windham,House Committee on Agriculture and Forest Products
+1,76,Vice Chair,AGRI,Lawrence of  Lyndonville,House Committee on Agriculture and Forest Products
+1,2,Clerk,AGRI,Bartholomew of  Hartland,House Committee on Agriculture and Forest Products
+1,125,Ranking Member,AGRI,Stevens of  Shoreham,House Committee on Agriculture and Forest Products
+1,22,,AGRI,Connor of  Fairfield,House Committee on Agriculture and Forest Products
+1,86,,AGRI,Martin of  Wolcott,House Committee on Agriculture and Forest Products
+1,92,,AGRI,Michelsen of  Hardwick,House Committee on Agriculture and Forest Products
+1,129,,AGRI,Taylor of  Barre,House Committee on Agriculture and Forest Products
+1,132,,AGRI,Toleno of  Brattleboro,House Committee on Agriculture and Forest Products
+1,121,,AGRI,Smith of  Morrisville,House Committee on Agriculture and Forest Products
+1,150,,AGRI,Zagar of  Barnard,House Committee on Agriculture and Forest Products
+2,53,Chair,APPR,Heath of  Westford,House Committee on Appropriations
+2,63,Vice Chair,APPR,Johnson of  Canaan,House Committee on Appropriations
+2,55,Ranking Member,APPR,Helm of  Fair Haven,House Committee on Appropriations
+2,40,,APPR,Fagan of  Rutland,House Committee on Appropriations
+2,65,,APPR,Keenan of  St. Albans,House Committee on Appropriations
+2,82,,APPR,Manwaring of  Wilmington,House Committee on Appropriations
+2,93,,APPR,Miller of  Shaftsbury,House Committee on Appropriations
+2,101,,APPR,O'Brien of  Richmond,House Committee on Appropriations
+2,104,,APPR,Pearce of  Richford,House Committee on Appropriations
+2,133,Clerk,APPR,Toll of  Danville,House Committee on Appropriations
+2,144,,APPR,Winters of  Williamstown,House Committee on Appropriations
+3,6,Chair,COMM,Botzow of  Bennington,House Committee on Commerce and Economic Development
+3,83,Vice Chair,COMM,Marcotte of  Newport,House Committee on Commerce and Economic Development
+3,67,Ranking Member,COMM,Kitzmiller of  Montpelier,House Committee on Commerce and Economic Development
+3,7,,COMM,Bouchard of  Colchester,House Committee on Commerce and Economic Development
+3,16,,COMM,Carr of  Brandon,House Committee on Commerce and Economic Development
+3,27,,COMM,Cross of  Winooski,House Committee on Commerce and Economic Development
+3,33,,COMM,Dickinson of  St. Albans,House Committee on Commerce and Economic Development
+3,73,Clerk,COMM,Kupersmith of  South Burlington,House Committee on Commerce and Economic Development
+3,112,,COMM,Ralston of  Middlebury,House Committee on Commerce and Economic Development
+3,116,,COMM,Scheuermann of  Stowe,House Committee on Commerce and Economic Development
+3,149,,COMM,Young of  Glover,House Committee on Commerce and Economic Development
+4,38,Chair,CORR,Emmons of  Springfield,House Committee on Corrections and Institutions
+4,99,Vice Chair,CORR,Myers of  Essex Jct.,House Committee on Corrections and Institutions
+4,77,Clerk,CORR,Lenes of  Shelburne,House Committee on Corrections and Institutions
+4,10,,CORR,Browning of  Arlington,House Committee on Corrections and Institutions
+4,30,,CORR,Davis of  West Topsham,House Committee on Corrections and Institutions
+4,57,,CORR,Hooper of  Montpelier,House Committee on Corrections and Institutions
+4,75,,CORR,Larocque of  St. Johnsbury,House Committee on Corrections and Institutions
+4,80,,CORR,Macaig of  Williston,House Committee on Corrections and Institutions
+4,119,,CORR,Shaw of  Derby,House Committee on Corrections and Institutions
+4,119,,CORR,Shaw of  Derby,House Committee on Corrections and Institutions
+4,122,,CORR,South of  St. Johnsbury Ctr.,House Committee on Corrections and Institutions
+5,36,Chair,EDUC,Donovan of  Burlington,House Committee on Education
+5,106,Vice Chair,EDUC,Peltz of  Woodbury,House Committee on Education
+5,78,Ranking Member,EDUC,Lewis of  Berlin,House Committee on Education
+5,13,Clerk,EDUC,Buxton of  Tunbridge,House Committee on Education
+5,14,,EDUC,Campion of  Bennington,House Committee on Education
+5,18,,EDUC,Christie of  White River Jct.,House Committee on Education
+5,28,,EDUC,Cupoli of  Rutland,House Committee on Education
+5,64,,EDUC,Juskiewicz of  Cambridge,House Committee on Education
+5,111,,EDUC,Rachelson of  Burlington,House Committee on Education
+5,127,,EDUC,Stuart of  Brattleboro,House Committee on Education
+6,137,,FISH,Turner of  Milton,"House Committee on Fish, Wildlife and Water Resources "
+6,31,Chair,FISH,Deen of  Putney,"House Committee on Fish, Wildlife and Water Resources "
+6,90,Vice Chair,FISH,McCullough of  Williston,"House Committee on Fish, Wildlife and Water Resources "
+6,4,Ranking Member,FISH,Beyor of  Highgate Springs,"House Committee on Fish, Wildlife and Water Resources "
+6,61,,FISH,Jewett of  Ripton,"House Committee on Fish, Wildlife and Water Resources "
+6,71,,FISH,Krebs of  South Hero,"House Committee on Fish, Wildlife and Water Resources "
+6,59,Clerk,FISH,Huntley of  Cavendish,"House Committee on Fish, Wildlife and Water Resources "
+6,110,,FISH,Quimby of  Concord,"House Committee on Fish, Wildlife and Water Resources "
+6,130,,FISH,Terenzini of  Rutland,"House Committee on Fish, Wildlife and Water Resources "
+6,141,,FISH,Webb of  Shelburne,"House Committee on Fish, Wildlife and Water Resources "
+7,52,Chair,GENE,Head of  South Burlington,"House Committee on General, Housing and Military Affairs "
+7,96,Vice Chair,GENE,Moran of  Wardsboro,"House Committee on General, Housing and Military Affairs "
+7,115,Ranking Member,GENE,Savage of  Swanton,"House Committee on General, Housing and Military Affairs "
+7,102,,GENE,O'Sullivan of  Burlington,"House Committee on General, Housing and Military Affairs "
+7,125,Clerk,GENE,Stevens of  Shoreham,"House Committee on General, Housing and Military Affairs "
+7,138,,GENE,Van Wyck of  Ferrisburgh,"House Committee on General, Housing and Military Affairs "
+7,139,,GENE,Vowinkel of  White River Jct.,"House Committee on General, Housing and Military Affairs "
+7,142,,GENE,Weed of  Enosburg Falls,"House Committee on General, Housing and Military Affairs "
+8,128,Chair,GOVE,Sweaney of  Windsor,House Committee on Government Operations
+8,39,Vice Chair,GOVE,Evans of  Essex Jct.,House Committee on Government Operations
+8,32,Ranking Member,GOVE,Devereux of  Belmont,House Committee on Government Operations
+8,20,,GOVE,Cole of  Burlington,House Committee on Government Operations
+8,24,,GOVE,Consejo of  Sheldon,House Committee on Government Operations
+8,56,,GOVE,Higley of  Lowell,House Committee on Government Operations
+8,58,,GOVE,Hubert of  Milton,House Committee on Government Operations
+8,86,Clerk,GOVE,Martin of  Wolcott,House Committee on Government Operations
+8,95,,GOVE,Mook of  Bennington,House Committee on Government Operations
+8,135,,GOVE,Townsend of  South Burlington,House Committee on Government Operations
+8,135,,GOVE,Townsend of  South Burlington,House Committee on Government Operations
+9,43,Chair,HEAL,Fisher of  Lincoln,House Committee on Health Care
+9,25,Vice Chair,HEAL,Copeland-Hanzas of  Bradford,House Committee on Health Care
+9,107,Ranking Member,HEAL,Poirier of  Barre,House Committee on Health Care
+9,29,Clerk,HEAL,Dakin of  Chester,House Committee on Health Care
+9,46,,HEAL,Gage of  Rutland,House Committee on Health Care
+9,94,,HEAL,Mitchell of  Fairfax,House Committee on Health Care
+9,97,,HEAL,Morrissey of  Bennington,House Committee on Health Care
+9,105,,HEAL,Pearson of  Burlington,House Committee on Health Care
+9,123,,HEAL,Spengler of  Colchester,House Committee on Health Care
+9,131,,HEAL,Till of  Jericho,House Committee on Health Care
+9,146,,HEAL,Woodward of  Johnson,House Committee on Health Care
+10,109,Chair,HUMA,Pugh of  South Burlington,House Committee on Human Services
+10,51,Vice Chair,HUMA,Haas of  Rochester,House Committee on Human Services
+10,35,Ranking Member,HUMA,Donahue of  Northfield,House Committee on Human Services
+10,3,,HUMA,Batchelor of  Derby Line,House Committee on Human Services
+10,11,,HUMA,Burditt of  West Rutland,House Committee on Human Services
+10,44,,HUMA,Frank of  Underhill,House Committee on Human Services
+10,45,,HUMA,French of  Randolph,House Committee on Human Services
+10,72,Clerk,HUMA,Krowinski of  Burlington,House Committee on Human Services
+10,91,,HUMA,McFaun of  Barre Town,House Committee on Human Services
+10,98,,HUMA,Mrowicki of  Putney,House Committee on Human Services
+10,136,,HUMA,Trieber of  Bellows Falls,House Committee on Human Services
+11,79,Chair,JUDI,Lippert of  Hinesburg,House Committee on Judiciary
+11,49,Vice Chair,JUDI,Grad of  Moretown,House Committee on Judiciary
+11,69,Ranking Member,JUDI,Koch of  Barre,House Committee on Judiciary
+11,23,,JUDI,Conquest of  Wells River,House Committee on Judiciary
+11,34,,JUDI,Donaghy of  Poultney,House Committee on Judiciary
+11,41,,JUDI,Fay of  St. Johnsbury,House Committee on Judiciary
+11,48,,JUDI,Goodwin of  Weston,House Committee on Judiciary
+11,84,,JUDI,Marek of  Newfane,House Committee on Judiciary
+11,126,,JUDI,Strong of  Irasburg,House Committee on Judiciary
+11,140,,JUDI,Waite-Simpson of  Essex Jct.,House Committee on Judiciary
+11,145,Clerk,JUDI,Wizowaty of  Burlington,House Committee on Judiciary
+12,68,Chair,NATU,Klein of  Montpelier,House Committee on Natural Resources and Energy
+12,17,Vice Chair,NATU,Cheney of  Norwich,House Committee on Natural Resources and Energy
+12,15,Ranking Member,NATU,Canfield of  Fair Haven,House Committee on Natural Resources and Energy
+12,37,,NATU,Ellis of  Waterbury Center,House Committee on Natural Resources and Energy
+12,42,,NATU,Feltus of  Lyndonville,House Committee on Natural Resources and Energy
+12,54,,NATU,Hebert of  Vernon,House Committee on Natural Resources and Energy
+12,60,Clerk,NATU,Jerman of  Essex Jct.,House Committee on Natural Resources and Energy
+12,81,,NATU,Malcolm of  Pawlet,House Committee on Natural Resources and Energy
+12,89,,NATU,McCormack of  Burlington,House Committee on Natural Resources and Energy
+12,100,,NATU,Nuovo of  Middlebury,House Committee on Natural Resources and Energy
+12,148,,NATU,Yantachka of  Charlotte,House Committee on Natural Resources and Energy
+13,9,Chair,TRAN,Brennan of  Colchester,House Committee on Transportation
+13,108,Vice Chair,TRAN,Potter of  Clarendon,House Committee on Transportation
+13,26,Ranking Member,TRAN,Corcoran of  Bennington,House Committee on Transportation
+13,5,,TRAN,Bissonnette of  Winooski,House Committee on Transportation
+13,12,,TRAN,Burke of  Brattleboro,House Committee on Transportation
+13,47,,TRAN,Gallivan of  North Chittenden,House Committee on Transportation
+13,66,,TRAN,Kilmartin of  Newport,House Committee on Transportation
+13,74,Clerk,TRAN,Lanpher of  Vergennes,House Committee on Transportation
+13,88,,TRAN,McCarthy of  St. Albans,House Committee on Transportation
+13,114,,TRAN,Russell of  Rutland,House Committee on Transportation
+13,147,,TRAN,Wright of  Burlington,House Committee on Transportation
+14,1,Chair,WAYS,Ancel of  Calais,House Committee on Ways and Means
+14,8,Vice Chair,WAYS,Branagan of  Georgia,House Committee on Ways and Means
+14,117,Ranking Member,WAYS,Sharpe of  Bristol,House Committee on Ways and Means
+14,19,Clerk,WAYS,Clarkson of  Woodstock,House Committee on Ways and Means
+14,21,,WAYS,Condon of  Colchester,House Committee on Ways and Means
+14,50,,WAYS,Greshin of  Warren,House Committee on Ways and Means
+14,63,,WAYS,Johnson of  Canaan,House Committee on Ways and Means
+14,70,,WAYS,Komline of  Dorset,House Committee on Ways and Means
+14,87,,WAYS,Masland of  Thetford Center,House Committee on Ways and Means
+14,113,,WAYS,Ram of  Burlington,House Committee on Ways and Means
+14,143,,WAYS,Wilson of  Manchester,House Committee on Ways and Means
+15,31,,RULE,Deen of  Putney,House Rules Committee
+15,69,,RULE,Koch of  Barre,House Rules Committee
+15,70,,RULE,Komline of  Dorset,House Rules Committee
+15,61,,RULE,Jewett of  Ripton,House Rules Committee
+15,137,,RULE,Turner of  Milton,House Rules Committee

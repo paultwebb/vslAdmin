@@ -1,0 +1,105 @@
+code,district,townList,districtImage,members
+1,ADDISON-1,Middlebury,http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-1.pdf,2
+2,ADDISON-2,"Cornwall, Goshen, Hancock, Leicester, Ripton, Salisbury",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-2.pdf,1
+3,ADDISON-3,"Addison, Ferrisburgh, Panton, Vergennes, Waltham",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-3.pdf,2
+4,ADDISON-4,"Bristol, Lincoln, Monkton, Starksboro",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-4.pdf,2
+5,ADDISON-5,"Bridport, New Haven, Weybridge",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-5.pdf,1
+6,ADDISON-RUTLAND,"Benson, Orwell, Shoreham, Whiting",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-RUT.pdf,1
+7,BENNINGTON-1,"Pownal, Woodford",http://www.leg.state.vt.us/Reapportionment/SmallMaps/BEN-1.pdf,1
+8,BENNINGTON-2-1,Bennington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/BEN-2-1.pdf,2
+9,BENNINGTON-2-2,Bennington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/BEN-2-2.pdf,2
+10,BENNINGTON-3,"Glastenbury, Shaftsbury, Sunderland",http://www.leg.state.vt.us/Reapportionment/SmallMaps/BEN-3.pdf,1
+11,BENNINGTON-4,"Arlington, Manchester, Sandgate, Sunderland",http://www.leg.state.vt.us/Reapportionment/SmallMaps/BEN-4.pdf,2
+12,BENNINGTON-RUTLAND,"Danby, Dorset, Landgrove, Mount Tabor, Peru",http://www.leg.state.vt.us/Reapportionment/SmallMaps/BEN-RUT.pdf,1
+13,CALEDONIA-1,"Barnet, Ryegate, Waterford",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CAL-1.pdf,1
+14,CALEDONIA-2,"Hardwick, Stannard, Walden",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CAL-2.pdf,1
+15,CALEDONIA-3,St. Johnsbury,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CAL-3.pdf,2
+16,CALEDONIA-4,"Burke, Lyndon, Sutton",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CAL-4.pdf,2
+17,CALEDONIA-WASHINGTON,"Cabot, Danville, Peacham",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CAL-WAS.pdf,1
+18,CHITTENDEN-1,Richmond,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-1.pdf,1
+19,CHITTENDEN-10,Milton,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-10.pdf,2
+20,CHITTENDEN-2,Williston,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-2.pdf,2
+21,CHITTENDEN-3,"Jericho, Underhill",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-3.pdf,2
+22,CHITTENDEN-4-1,"Charlotte, Hinesburg",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-4-1.pdf,1
+23,CHITTENDEN-4-2,Hinesburg,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-4-2.pdf,1
+24,CHITTENDEN-5-1,Shelburne,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-5-1.pdf,1
+25,CHITTENDEN-5-2,"Shelburne, St. George",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-5-2.pdf,1
+26,CHITTENDEN-6-1,Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-6-1.pdf,2
+27,CHITTENDEN-6-2,Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-6-2.pdf,1
+28,CHITTENDEN-6-3,Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-6-3.pdf,2
+29,CHITTENDEN-6-4,Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-6-4.pdf,2
+30,CHITTENDEN-6-5,Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-6-5.pdf,2
+31,CHITTENDEN-6-6,Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-6-6.pdf,1
+32,CHITTENDEN-6-7,"Burlington, Winooski",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-6-7.pdf,2
+33,CHITTENDEN-7-1,South Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-7-1.pdf,1
+34,CHITTENDEN-7-2,South Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-7-2.pdf,1
+35,CHITTENDEN-7-3,South Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-7-3.pdf,1
+36,CHITTENDEN-7-4,South Burlington,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-7-4.pdf,1
+37,CHITTENDEN-8-1,Essex,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-8-1.pdf,2
+38,CHITTENDEN-8-2,Essex,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-8-2.pdf,2
+39,CHITTENDEN-8-3,"Essex, Westford",http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-8-3.pdf,1
+40,CHITTENDEN-9-1,Colchester,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-9-1.pdf,2
+41,CHITTENDEN-9-2,Colchester,http://www.leg.state.vt.us/Reapportionment/SmallMaps/CHI-9-2.pdf,2
+42,ESSEX-CALEDONIA,"Brunswick, Concord, Granby, Guildhall, Kirby, Lunenburg, Maidstone, Victory",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ESX-CAL.pdf,1
+43,ESSEX-CALEDONIA-ORLEANS,"Averill, Averys Gore, Bloomfield, Brighton, Canaan, East Haven, Ferdinand, Lemington, Lewis, Newark, Norton, Warners Grant, Warren Gore, Westmore",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ESX-CAL-ORL.pdf,1
+44,FRANKLIN-1,Georgia,http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-1.pdf,1
+45,FRANKLIN-2,Fairfax,http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-2.pdf,1
+46,FRANKLIN-3-1,"St. Albans City, St. Albans Town",http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-3-1.pdf,2
+47,FRANKLIN-3-2,St. Albans Town,http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-3-2.pdf,1
+48,FRANKLIN-4,"Sheldon, Swanton",http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-4.pdf,2
+49,FRANKLIN-5,"Berkshire, Franklin, Highgate, Richford",http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-5.pdf,2
+50,FRANKLIN-6,"Bakersfield, Fairfield, Fletcher",http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-6.pdf,1
+51,FRANKLIN-7,"Enosburgh, Montgomery",http://www.leg.state.vt.us/Reapportionment/SmallMaps/FRA-7.pdf,1
+52,GRAND ISLE-CHITTENDEN,"Alburgh, Grand Isle, Isle La Motte, Milton, North Hero, South Hero",http://www.leg.state.vt.us/Reapportionment/SmallMaps/GI-CHI.pdf,2
+53,LAMOILLE-1,Stowe,http://www.leg.state.vt.us/Reapportionment/SmallMaps/LAM-1.pdf,1
+54,LAMOILLE-2,"Belvidere, Hyde Park, Johnson, Wolcott",http://www.leg.state.vt.us/Reapportionment/SmallMaps/LAM-2.pdf,2
+55,LAMOILLE-3,"Cambridge, Waterville",http://www.leg.state.vt.us/Reapportionment/SmallMaps/LAM-3.pdf,1
+56,LAMOILLE-WASHINGTON,"Elmore, Morristown, Woodbury, Worcester",http://www.leg.state.vt.us/Reapportionment/SmallMaps/LAM-WAS.pdf,2
+57,ORANGE-1,"Chelsea, Corinth, Orange, Vershire, Washington, Williamstown",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORA-1.pdf,2
+58,ORANGE-2,"Bradford, Fairlee, West Fairlee",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORA-2.pdf,1
+59,ORANGE-CALEDONIA,"Groton, Newbury, Topsham",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORA-CAL.pdf,1
+60,ORANGE-WASHINGTON-ADDISON,"Braintree, Brookfield, Granville, Randolph, Roxbury",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORA-WAS-ADD.pdf,2
+61,ORLEANS-1,"Brownington, Charleston, Derby, Holland, Morgan",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORL-1.pdf,2
+62,ORLEANS-2,"Coventry, Irasburg, Newport City, Newport Town, Troy",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORL-2.pdf,2
+63,ORLEANS-CALEDONIA,"Albany, Barton, Craftsbury, Glover, Greensboro, Sheffield, Wheelock",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORL-CAL.pdf,2
+64,ORLEANS-LAMOILLE,"Eden, Jay, Lowell, Troy, Westfield",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ORL-LAM.pdf,1
+65,RUTLAND-1,"Ira, Poultney",http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-1.pdf,1
+66,RUTLAND-2,"Clarendon, Proctor, Tinmouth, Wallingford, West Rutland",http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-2.pdf,2
+67,RUTLAND-3,"Castleton, Fair Haven, Hubbardton, West Haven",http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-3.pdf,2
+68,RUTLAND-4,Rutland Town,http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-4.pdf,1
+69,RUTLAND-5-1,Rutland City,http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-5-1.pdf,1
+70,RUTLAND-5-2,Rutland City,http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-5-2.pdf,1
+71,RUTLAND-5-3,Rutland City,http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-5-3.pdf,1
+72,RUTLAND-5-4,Rutland City,http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-5-4.pdf,1
+73,RUTLAND-6,"Brandon, Pittsford, Sudbury",http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-6.pdf,2
+74,RUTLAND-BENNINGTON,"Middletown Springs, Pawlet, Rupert, Tinmouth, Wells",http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-BEN.pdf,1
+75,RUTLAND-WINDSOR-1,"Bridgewater, Chittenden, Killington, Mendon",http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-WDR-1.pdf,1
+76,RUTLAND-WINDSOR-2,"Ludlow, Mount Holly, Shrewsbury",http://www.leg.state.vt.us/Reapportionment/SmallMaps/RUT-WDR-2.pdf,1
+77,WASHINGTON-1,"Berlin, Northfield",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-1.pdf,2
+78,WASHINGTON-2,Barre Town,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-2.pdf,2
+79,WASHINGTON-3,Barre City,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-3.pdf,2
+80,WASHINGTON-4,Montpelier,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-4.pdf,2
+81,WASHINGTON-5,"East Montpelier, Middlesex",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-5.pdf,1
+82,WASHINGTON-6,"Calais, Marshfield, Plainfield",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-6.pdf,1
+83,WASHINGTON-7,"Duxbury, Fayston, Moretown, Waitsfield, Warren",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-7.pdf,2
+84,WASHINGTON-CHITTENDEN,"Bolton, Buels Gore, Huntington, Waterbury",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WAS-CHI.pdf,2
+85,WINDHAM-1,"Guilford, Vernon",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-1.pdf,1
+86,WINDHAM-2-1,Brattleboro,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-2-1.pdf,1
+87,WINDHAM-2-2,Brattleboro,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-2-2.pdf,1
+88,WINDHAM-2-3,Brattleboro,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-2-3.pdf,1
+89,WINDHAM-3,"Athens, Brookline, Grafton, Rockingham, Westminster, Windham",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-3.pdf,2
+90,WINDHAM-4,"Dummerston, Putney, Westminster",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-4.pdf,2
+91,WINDHAM-5,"Marlboro, Newfane, Townshend",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-5.pdf,1
+92,WINDHAM-6,"Halifax, Whitingham, Wilmington",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-6.pdf,1
+93,WINDHAM-BENNINGTON,"Dover, Readsboro, Searsburg, Somerset, Stamford, Wardsboro, Whitingham",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-BEN.pdf,1
+94,WINDHAM-BENNINGTON-WINDSOR,"Jamaica, Londonderry, Stratton, Weston, Winhall",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDH-BEN-WDR.pdf,1
+95,WINDSOR-1,"Hartland, West Windsor, Windsor",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-1.pdf,2
+96,WINDSOR-2,"Cavendish, Weathersfield",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-2.pdf,1
+97,WINDSOR-3-1,"Andover, Baltimore, Chester, Springfield",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-3-1.pdf,1
+98,WINDSOR-3-2,Springfield,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-3-2.pdf,2
+99,WINDSOR-4-1,"Barnard, Hartford, Pomfret",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-4-1.pdf,1
+100,WINDSOR-4-2,Hartford,http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-4-2.pdf,2
+101,WINDSOR-5,"Plymouth, Reading, Woodstock",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-5.pdf,1
+102,WINDSOR-ORANGE-1,"Royalton, Tunbridge",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-ORA-1.pdf,1
+103,WINDSOR-ORANGE-2,"Norwich, Sharon, Strafford, Thetford",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-ORA-2.pdf,2
+104,WINDSOR-RUTLAND,"Bethel, Pittsfield, Rochester, Stockbridge",http://www.leg.state.vt.us/Reapportionment/SmallMaps/WDR-RUT.pdf,1

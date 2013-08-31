@@ -1,0 +1,18 @@
+code,committee,room
+AGRI,House Committee on Agriculture and Forest Products,31
+APPR,House Committee on Appropriations,42
+COMM,House Committee on Commerce and Economic Development,35
+CORR,House Committee on Corrections and Institutions,33
+EDUC,House Committee on Education,32
+FISH,"House Committee on Fish, Wildlife and Water Resources ",47
+GENE,"House Committee on General, Housing and Military Affairs ",41
+GOVE,House Committee on Government Operations,49
+HEAL,House Committee on Health Care,45
+HUMA,House Committee on Human Services,46
+JUDI,House Committee on Judiciary,30
+NATU,House Committee on Natural Resources and Energy,44
+TRAN,House Committee on Transportation,43
+WAYS,House Committee on Ways and Means,34
+RULE,House Rules Committee,
+SPEA,Speaker of the House,P
+CLER,Office of the Clerk of the house,Q

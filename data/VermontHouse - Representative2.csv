@@ -1,0 +1,3 @@
+repId,seat,name,lastName,firstName,middleName,preferredName,homeTown,party,firstTerm,birthTown,birthState,birthCountry,birthMonth,birthDay,birthYear,phoneOffice,phoneCell,phoneHome,address1,address2,city,state,zip,district
+121,1,"Smith, Shapleigh",Smith, Shapleigh,,, Morrisville,D,*,Danbury,CT,,12,16,1965,(802) 888-9214,,,369 Farm Hill Rd.,, Morrisville,VT,5661,LAMOILLE-WASHINGTON
+138,11,"Van Wyck, Warren",Van Wyck, Warren,,Slick, Ferrisburgh,R,,Paterson,NJ,,10,25,1952,(802) 877-2169,,,3502 Middlebrook Rd.,, Ferrisburgh,VT,5456,ADDISON-3
