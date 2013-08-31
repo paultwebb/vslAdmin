@@ -1,7 +1,5 @@
 package gov.vt.vslAdmin
 
-
-
 import gov.vt.vslAdmin.GnisLocaleController;
 import grails.test.mixin.*
 

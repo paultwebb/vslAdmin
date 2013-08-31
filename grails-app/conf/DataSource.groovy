@@ -1,8 +1,6 @@
 dataSource {
     pooled = true
     driverClassName = "com.mysql.jdbc.Driver"
-    username = "paulw"
-    password = ""
 }
 hibernate {
     cache.use_second_level_cache = true
@@ -13,13 +11,18 @@ hibernate {
 environments {
     development {
         dataSource {
+			username = "paulw"
+			password = ""
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost:3306/VermontDev?autoreconnect=true"
         }
     }
-    test {
+
+	test {
         dataSource {
-            dbCreate = "update"
+			username = "ptwebb"
+			password = ""
+			dbCreate = "create-drop"
             url = "jdbc:mysql://localhost:3306/VermontTest?autoreconnect=true"
         }
     }
