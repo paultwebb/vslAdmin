@@ -11,6 +11,8 @@
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
 // }
 
+// to run on macbook: grails -Dgrails.env=macbook run-app
+
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 grails.mime.file.extensions = true // enables the parsing of file extensions from URLs into the request format
 grails.mime.use.accept.header = false
@@ -67,6 +69,12 @@ environments {
         grails.logging.jul.usebridge = false
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
+	macbook {
+		grails.logging.jul.usebridge = true
+		// Let's gsp changes be seen in runnin application
+		grails.gsp.enable.reload = true
+		
+	}
 }
 
 // log4j configuration
@@ -74,10 +82,14 @@ log4j = {
     // Example of changing the log pattern for the default console appender:
     //
    appenders {
-	   info 'grails.app.controllers'
+	//   info 'grails.app.controllers'
         console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
+	//   trace 'grails.app.controllers'
+		rollingFile name: "myAppender",maxFileSize: 1000000, file: "vslAdmin.log"
     }
-
+   
+    trace  myAppender:'grails.app.controllers'
+   
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
            'org.codehaus.groovy.grails.web.sitemesh',       // layouts

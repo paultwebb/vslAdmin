@@ -1,19 +1,59 @@
 package gov.vt.vslAdmin
-import gov.vt.vslAdmin.County
+//import gov.vt.vslAdmin.County
 
 //import vslAdmin.LoadCsvService
+
 
 class LoadCsvController {
 
 	def loadCsvService
-	
+
+	def beforeInterceptor = {
+		log.trace("Executing action $actionName with params $params from $request.locale.country")
+	}
+	def afterInterceptor = { model ->
+		log.trace("Executed action $actionName which resulted in model: $model")
+	}
+		
 	def index() {
+		//redirect(action:'loadCsv')
+		//loadCsvService.loadDistricts()
+		log.trace("in index")
 		redirect(action:'loadCsv')
+		
+			}
+	
+	def loadDistrict() {
+		def results = loadCsvService.loadDistricts()
+		redirect(action:'loadCsv', params:results)
+	}
+
+	def loadCommittee() {
+		def results = loadCsvService.loadCommittees()
+		redirect(action:'loadCsv', params:results)
+	}
+
+	def loadGnisLocale() {
+		def results = loadCsvService.loadGnisLocales()
+		redirect(action:'loadCsv', params:results)
+	}
+			
+	def loadCounty() {
+		def results = loadCsvService.loadCounties() 	
+		redirect(action:'loadCsv', params:results)		
 	}
 	
+	def loadTown() {
+		def results = loadCsvService.loadTowns()
+		redirect(action:'loadCsv', params:results)
+	}
+		
 	def loadCsv() {
-		log.info('loadCsv action')
-		render 'Replaced by Groovy script for now..'
+		//log.info('loadCsv action.0')
+		render(view:'loadCsv', model:params)
+		//log.info('loadCsv action.1')
+		
+//		render 'Replaced by Groovy script for now..'
 //		render text:'<county>Addison</county>', contentType:'text/xml'
 //		try {
 //			def x = 1/0
@@ -21,37 +61,13 @@ class LoadCsvController {
 //		  log.error ('hmm, an error. just kidding, it was forced')
 //		}
 //		redirect url : "http://lincoln.ods.org" 
-	    [ county: County.get(params.county)]
+//	    [ county: County.get(params.county)]
 		}
 	
-    def loadCounty() { 
-		render 'Loading Counties<P>'
-		def results = loadCsvService.loadCounty()
-		println "results:${results}"
-		
-	 results.each { result ->
-			render "${result}<BR>"
-		}
-	}
+
 	
-	def loadTown() {
-		render 'Loading Towns<P>'
-		def results = loadCsvService.loadTown()
-		println "results:${results}"
-		
-	 results.each { result ->
-			render "${result}<BR>"
-		}
-	}
+
 	
-	def loadGnisLocale() {
-		render 'Loading Locales<P>'
-		def results = loadCsvService.loadGnisLocale()
-		println "results:${results}"
-		
-	 results.each { result ->
-			render "${result}<BR>"
-		}
-	}
+
 	
 }

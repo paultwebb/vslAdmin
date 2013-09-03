@@ -18,6 +18,15 @@ environments {
         }
     }
 
+	macbook {
+		dataSource {
+			username = "ptwebb"
+			password = ""
+			dbCreate = "create-drop"
+			url = "jdbc:mysql://localhost:3306/VermontTest?autoreconnect=true"
+		}
+	}
+	
 	test {
         dataSource {
 			username = "ptwebb"

@@ -1,10 +1,16 @@
 package gov.vt.vslAdmin
 import gov.vt.vslAdmin.Term
+import grails.gorm.DetachedCriteria
 
 
 class SearchController {
 
-	
+	def beforeInterceptor = {
+		log.trace("Executing action $actionName with params $params from $request.locale.country")
+	}
+	def afterInterceptor = { model ->
+		log.trace("Executed action $actionName which resulted in model: $model")
+	}
     def index() { 
 		//redirect(action:'loadCsv', controller:'LoadCsv')
 		//redirect(url:'http://lincoln.ods.org')
@@ -12,6 +18,16 @@ class SearchController {
 		//redirect(action:'show', controller:'Town',id:19)
 		//[ town: Town.get(18)]
 		//render('hello')
+	}
+	
+	def shop() {
+		// Page 106
+		//def countyList = new DetachedCriteria(Town).distinct('county').list()
+		//[counties:countyList.sort()]
+		def countyList = County.list()
+		[counties:countyList.sort()]
+		//[countyList]
+		
 	}
 	
 	def findRep() {

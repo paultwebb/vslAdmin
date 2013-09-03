@@ -25,5 +25,47 @@
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 		<g:javascript library="application"/>
 		<r:layoutResources />
+		
+		<div id="loginBox" class="loginBox">
+		  <g:if test="${session?.user}">
+		    <div style="margin-top:20px">
+		    <div style="float:right">
+		    <a href="#">Profile</a> | <g:link controller="user" action="logout">Logout</g:link><br>
+		</div>
+		Welcome<span id:"userFirstName"></span> ${session?.user?.firstName }!
+		</span><br><br>
+		Your last login was xx/xxx/xxxx<br>
+		</div>
+		</g:if>
+		<g:else>
+		  <g:form name="loginForm" url="[controller:'user',action:'login']">   
+		  <div>Username:</div>
+		  <g:textField name ="login" value="${fieldValue(bean:loginCmd, field:'login')}">
+		  </g:textField>
+		  <div>Password:</div>
+		  <g:passwordField name="password"></g:passwordField>
+		  <br/>
+		  <input type="image" 
+		     src="${createLinkTo(dir:'images', file:'login-button.gif')}"
+		     name="loginButton" id="loginButton" border="0"></input>
+		   </g:form>
+		   <g:renderErrors bean="${loginCmd}"></g:renderErrors>
+		   </g:else>
+		   </div>
+		   
+		   	<div id="navPane">
+			<g:if test="${session.user}">
+				<ul>
+					<li><g:link controller="admin" action="index">Admin</g:link></li>
+				</ul>			
+			</g:if>
+			<g:else>
+				<div id="registerPane">
+					Need an account? <g:link controller="user" action="register">Signup now</g:link> 
+					to have access to advanced features.
+				</div>						
+			</g:else>
+		</div>
+		     
 	</body>
 </html>
