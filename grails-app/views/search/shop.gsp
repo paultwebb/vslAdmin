@@ -27,16 +27,34 @@ xuser=${session.xuser}
    Bingo!
 </g:if>
 <g:else>
-   ${county}
+   ${county}?
 </g:else>
 <p>
 
-${counties.county[0].toUpperCase() }
+${counties.county[0]?.toUpperCase() }
 ${counties?.county[50]?.toUpperCase() }
 
-<g:each in="${counties?.county?}">
-  <span class="tag">${it.county}</span>
-</g:each>
+<p>
+There are ${counties.size()} counties </p>
+ There are ${towns.size()} towns </p>
  
+<table border='1'>
+<g:each in='${counties}' var='county'>
+  <tr>
+    <td>${county.gnisId}</td>
+    <td>${county.county}</td>
+  </tr>
+</g:each>
+</table>
+
+<table border='1'>
+<g:each in='${towns}' var='town'>
+  <tr>
+    <td>${town.town}</td>
+    <td>${town.entityType}</td>
+  </tr>
+</g:each>
+</table>
+
  </body>
 </html>

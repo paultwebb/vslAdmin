@@ -24,9 +24,10 @@ class SearchController {
 		// Page 106
 		//def countyList = new DetachedCriteria(Town).distinct('county').list()
 		//[counties:countyList.sort()]
-		def countyList = County.list()
-		[counties:countyList.sort()]
-		//[countyList]
+		def countyList = County.list().sort{it.county}
+		def townList = Town.list().sort{it.town}
+		//[counties:countyList.sort()]
+		return [counties:countyList,towns:townList]
 		
 	}
 	
