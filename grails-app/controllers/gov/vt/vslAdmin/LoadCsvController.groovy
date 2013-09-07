@@ -19,14 +19,23 @@ class LoadCsvController {
 		//redirect(action:'loadCsv')
 		//loadCsvService.loadDistricts()
 		log.trace("in index")
-		redirect(action:'loadCsv')
-		
+		redirect(action:'loadCsv')	
 			}
-	
+
 	def loadDistrict() {
 		def results = loadCsvService.loadDistricts()
 		redirect(action:'loadCsv', params:results)
 	}
+	
+	def loadRepresentative() {
+		def results = loadCsvService.loadRepresentatives()
+		redirect(action:'loadCsv', params:results)
+	}
+	def loadSenator() {
+		def results = loadCsvService.loadSenators()
+		redirect(action:'loadCsv', params:results)
+	}
+
 
 	def loadCommittee() {
 		def results = loadCsvService.loadCommittees()

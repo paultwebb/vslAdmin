@@ -12,7 +12,52 @@ class LoadCsvService {
 	Integer deletes
 	Integer loads
 	Integer errors
-	
+
+	def loadRepresentatives() {
+		// Load the Representative file into People
+		deletes=District.executeUpdate('delete Representative')
+		loads = 0;errors = 0
+		fileName = "VermontHouse - Representative.csv"
+		Representative curRepresentative
+		def reader = new File("${filePath}/${fileName}").toCsvMapReader()
+		def results = [:]
+		reader.each { map ->
+			curRepresentative = new Representative(map)
+			if (!curRepresentative.save()) {
+			//	println "Error ${map['representative']}"
+				println curRepresentative.errors
+			//	results[curRepresentative.name] = curRepresentative.errors
+				errors++
+			} else {
+				loads++
+			}
+		}
+		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+		return ['table':'Representative','deletes':deletes,'loads':loads,'errors':errors]
+	}
+	def loadSenators() {
+		// Load the Senator file into People
+		deletes=District.executeUpdate('delete Senator')
+		loads = 0;errors = 0
+		fileName = "VermontHouse - Senator.csv"
+		Senator curSenator
+		def reader = new File("${filePath}/${fileName}").toCsvMapReader()
+		def results = [:]
+		reader.each { map ->
+			curSenator = new Senator(map)
+			if (!curSenator.save()) {
+			//	println "Error ${map['senator']}"
+				println curSenator.errors
+			//	results[curSenator.name] = curSenator.errors
+				errors++
+			} else {
+				loads++
+			}
+		}
+		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+		return ['table':'Senator','deletes':deletes,'loads':loads,'errors':errors]
+	}
+		
 	def loadDistricts() {
 		// Load the District table
 		deletes=District.executeUpdate('delete District')

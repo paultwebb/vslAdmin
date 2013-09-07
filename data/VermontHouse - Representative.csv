@@ -1,4 +1,4 @@
-PersonId,currentSeat,name,lastName,firstName,middleName,preferredName,homeTown,currentParty,firstTerm,birthTown,birthState,birthCountry,birthMonth,birthDay,birthYear,phoneOffice,phoneCell,phoneHome,address1,address2,city,state,zip,district
+personId,currentSeat,name,lastName,firstName,middleName,preferredName,homeTown,currentParty,firstTerm,birthTown,birthState,birthCountry,birthMonth,birthDay,birthYear,phoneOffice,phoneCell,phoneHome,address1,address2,city,state,zip,district
 121,1,"Smith, Shapleigh",Smith, Shapleigh,,, Morrisville,D,*,Danbury,CT,,12,16,1965,(802) 888-9214,,,369 Farm Hill Rd.,, Morrisville,VT,5661,LAMOILLE-WASHINGTON
 55,2,"Helm, Robert, G.",Helm, Robert, G.,, Fair Haven,R,*,Canandaqua,NY,,10,28,1949,(802) 265-2145,,,647 Route  4A East,, Fair Haven,VT,5743,RUTLAND-3
 135,3,"Townsend, Maida, F.",Townsend, Maida, F.,, South Burlington,D,,,,,,,,(802) 862-7404,,,232 Patchen Rd.,, South Burlington,VT,5403,CHITTENDEN-7-4
