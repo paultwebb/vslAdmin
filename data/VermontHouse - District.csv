@@ -1,4 +1,4 @@
-code,district,townList,districtImage,members
+districtCode,district,townList,districtImage,members
 1,ADDISON-1,Middlebury,http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-1.pdf,2
 2,ADDISON-2,"Cornwall, Goshen, Hancock, Leicester, Ripton, Salisbury",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-2.pdf,1
 3,ADDISON-3,"Addison, Ferrisburgh, Panton, Vergennes, Waltham",http://www.leg.state.vt.us/Reapportionment/SmallMaps/ADD-3.pdf,2

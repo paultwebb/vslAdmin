@@ -10,7 +10,7 @@ class CommitteeAssignment {
 	
 	// RELATIONSHIP PROPERTIES
 	static belongsTo = [
-		representative:Person,
+		person:Person,
 		committee:Committee
 	]
 	
@@ -18,7 +18,7 @@ class CommitteeAssignment {
 	// CONSTRAINTS
     static constraints = {
 		committee (blank:false)
-		representative (black:false)
+		person (blank:false)
 		role (nullable:true, maxSize:20)		
 		}
 	
@@ -28,6 +28,6 @@ class CommitteeAssignment {
 	
 	// METHODS
 	String toString() {
-		return "${committee.committee}: ${representative.name} ${role}"
+		return "${committee.committee}: ${person.name} ${role}"
 	}
 }

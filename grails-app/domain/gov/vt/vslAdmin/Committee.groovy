@@ -3,8 +3,10 @@ package gov.vt.vslAdmin
 class Committee {
 
 	// PROPERTIES
-	String code
+	String committeeCode
 	String committee
+	String scope
+	String description
 	String room 
 
 	java.sql.Timestamp dateCreated
@@ -16,11 +18,12 @@ class Committee {
 	
 	// CONSTRAINTS
     static constraints = {
-		code (blank:false, unique:true, maxSize:10)
-		committee (blank:false, unique:true, maxSize:100)
+		committeeCode (blank:false, unique:true, maxSize:10)
+		committee (blank:false, unique:true, maxSize:60)
+		scope(nullable:true, maxSize:20)
 		room (nullable:true, maxSize:20)
-		
-		}
+		description(nullable:true, maxSize:100)
+	}
 	
 	// MAPPING
 	static mapping = {

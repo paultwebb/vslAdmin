@@ -18,6 +18,14 @@
 	<g:textField name="homeTown" maxlength="40" value="${personInstance?.homeTown}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'currentParty', 'error')} ">
+	<label for="currentParty">
+		<g:message code="person.currentParty.label" default="Current Party" />
+		
+	</label>
+	<g:select id="currentParty" name="currentParty.id" from="${gov.vt.vslAdmin.Party.list()}" optionKey="id" value="${personInstance?.currentParty?.id}" class="many-to-one" noSelection="['null': '']"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: personInstance, field: 'personId', 'error')} required">
 	<label for="personId">
 		<g:message code="person.personId.label" default="Person Id" />
@@ -168,5 +176,39 @@
 		
 	</label>
 	<g:textField name="zip" maxlength="10" value="${personInstance?.zip}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'committeeAssignments', 'error')} ">
+	<label for="committeeAssignments">
+		<g:message code="person.committeeAssignments.label" default="Committee Assignments" />
+		
+	</label>
+	
+<ul class="one-to-many">
+<g:each in="${personInstance?.committeeAssignments?}" var="c">
+    <li><g:link controller="committeeAssignment" action="show" id="${c.id}">${c?.encodeAsHTML()}</g:link></li>
+</g:each>
+<li class="add">
+<g:link controller="committeeAssignment" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'committeeAssignment.label', default: 'CommitteeAssignment')])}</g:link>
+</li>
+</ul>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'officeHoldings', 'error')} ">
+	<label for="officeHoldings">
+		<g:message code="person.officeHoldings.label" default="Office Holdings" />
+		
+	</label>
+	
+<ul class="one-to-many">
+<g:each in="${personInstance?.officeHoldings?}" var="o">
+    <li><g:link controller="officeHolder" action="show" id="${o.id}">${o?.encodeAsHTML()}</g:link></li>
+</g:each>
+<li class="add">
+<g:link controller="officeHolder" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'officeHolder.label', default: 'OfficeHolder')])}</g:link>
+</li>
+</ul>
+
 </div>
 

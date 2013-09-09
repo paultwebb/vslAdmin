@@ -30,14 +30,15 @@ class Person {
 	java.sql.Timestamp lastUpdated
 	
 	// RELATIONSHIP PROPERTIES
-	//static hasMany = [
-	//	committeeAssignments:CommitteeAssignment,
-	//	terms:Term]
+	static hasMany = [officeHoldings:OfficeHolder,
+					  committeeAssignments:CommitteeAssignment]
+	static belongsTo = [currentParty:Party]
 	
 	// CONSTRAINTS
     static constraints = {
 		 name (blank:false, maxSize:50)
 		 homeTown (nullable:true, maxSize:40)
+		 currentParty (nullable:true)
 		 personId (blank:false, unique:true, maxSize:3)
 		 lastName (blank:false, maxSize:30)
 		 firstName (blank:false, maxSize:30)

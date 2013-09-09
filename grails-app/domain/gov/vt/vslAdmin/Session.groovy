@@ -3,8 +3,10 @@ package gov.vt.vslAdmin
 class Session {
 
 	// PROPERTIES
-	Integer code
+	String sessionCode
 	String session
+	String description
+	
 	java.sql.Timestamp startDate
 	java.sql.Timestamp endDate
 	
@@ -13,13 +15,18 @@ class Session {
 	java.sql.Timestamp lastUpdated
 	
 	// RELATIONSHIP PROPERTIES
-	static hasMany = [terms:Term]
+//	static hasMany = [term:Term]
+	static belongsTo = [office:Office,
+		                termOfOffice:TermOfOffice]
 	
 	
 	// CONSTRAINTS
     static constraints = {
-		code (blank:false, unique:true, maxSize:10)
-		session (blank:false, unique:true, maxSize:100)
+		sessionCode (blank:false, unique:true, maxSize:10)
+		session (blank:false, unique:true, maxSize:50)
+		description(nullable:true, maxSize:100)
+		office(blank:false)
+		termOfOffice(blank:false)
 		startDate(nullable:true)
 		endDate(nullable:true)		
 		}

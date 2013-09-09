@@ -1,5 +1,5 @@
-personId,seat,name,district,currentParty,lastName,firstName,middleName,preferredName,homeTown,firstTerm,birthTown,birthState,birthCountry,birthMonth,birthDay,birthYear,phoneOffice,phoneCell,phoneHome,address1,address2,city,state,zip
-206,11,Timothy Ashe,Chittenden,D/P,Ashe,Timothy,,,,,,,,,,,,,,,,,,
+personId,seat,name,senateDistrict,currentPartyCode,lastName,firstName,middleName,preferredName,homeTown,firstTerm,birthTown,birthState,birthCountry,birthMonth,birthDay,birthYear,phoneOffice,phoneCell,phoneHome,address1,address2,city,state,zip
+206,11,Timothy Ashe,Chittenden,DP,Ashe,Timothy,,,,,,,,,,,,,,,,,,
 207,18,Claire Ayer,Addison,D,Ayer,Claire,,,,,,,,,,,,,,,,,,
 208,12,Philip Baruth,Chittenden,D,Baruth,Philip,,,,,,,,,,,,,,,,,,
 209,27,Joseph Benning,Caledonia,R,Benning,Joseph,,,,,,,,,,,,,,,,,,
@@ -21,7 +21,7 @@ personId,seat,name,district,currentParty,lastName,firstName,middleName,preferred
 225,13,Richard McCormack,Windsor,D,McCormack,Richard,,,,,,,,,,,,,,,,,,
 226,22,Kevin Mullin,Rutland,R,Mullin,Kevin,,,,,,,,,,,,,,,,,,
 227,14,Alice Nitka,Windsor,D,Nitka,Alice,,,,,,,,,,,,,,,,,,
-228,28,Anthony Pollina,Washington,P/D/W,Pollina,Anthony,,,,,,,,,,,,,,,,,,
+228,28,Anthony Pollina,Washington,PDW,Pollina,Anthony,,,,,,,,,,,,,,,,,,
 229,3,John Rodgers,Essex-Orleans,D,Rodgers,John,,,,,,,,,,,,,,,,,,
 230,6,Richard Sears,Bennington,D,Sears,Richard,,,,,,,,,,,,,,,,,,
 231,8,Diane Snelling,Chittenden,R,Snelling,Diane,,,,,,,,,,,,,,,,,,

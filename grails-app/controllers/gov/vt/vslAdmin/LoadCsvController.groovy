@@ -27,12 +27,18 @@ class LoadCsvController {
 		redirect(action:'loadCsv', params:results)
 	}
 	
-	def loadRepresentative() {
-		def results = loadCsvService.loadRepresentatives()
+	def loadTermOfOffice() {
+		def results = loadCsvService.loadTermsOfOffice()
 		redirect(action:'loadCsv', params:results)
 	}
-	def loadSenator() {
-		def results = loadCsvService.loadSenators()
+	
+	def loadSession() {
+		def results = loadCsvService.loadSessions()
+		redirect(action:'loadCsv', params:results)
+	}
+	
+	def loadPeople() {
+		def results = loadCsvService.loadPeople()
 		redirect(action:'loadCsv', params:results)
 	}
 

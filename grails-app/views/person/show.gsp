@@ -41,6 +41,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${personInstance?.currentParty}">
+				<li class="fieldcontain">
+					<span id="currentParty-label" class="property-label"><g:message code="person.currentParty.label" default="Current Party" /></span>
+					
+						<span class="property-value" aria-labelledby="currentParty-label"><g:link controller="party" action="show" id="${personInstance?.currentParty?.id}">${personInstance?.currentParty?.encodeAsHTML()}</g:link></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${personInstance?.personId}">
 				<li class="fieldcontain">
 					<span id="personId-label" class="property-label"><g:message code="person.personId.label" default="Person Id" /></span>
@@ -212,6 +221,17 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${personInstance?.committeeAssignments}">
+				<li class="fieldcontain">
+					<span id="committeeAssignments-label" class="property-label"><g:message code="person.committeeAssignments.label" default="Committee Assignments" /></span>
+					
+						<g:each in="${personInstance.committeeAssignments}" var="c">
+						<span class="property-value" aria-labelledby="committeeAssignments-label"><g:link controller="committeeAssignment" action="show" id="${c.id}">${c?.encodeAsHTML()}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${personInstance?.dateCreated}">
 				<li class="fieldcontain">
 					<span id="dateCreated-label" class="property-label"><g:message code="person.dateCreated.label" default="Date Created" /></span>
@@ -226,6 +246,17 @@
 					<span id="lastUpdated-label" class="property-label"><g:message code="person.lastUpdated.label" default="Last Updated" /></span>
 					
 						<span class="property-value" aria-labelledby="lastUpdated-label"><g:fieldValue bean="${personInstance}" field="lastUpdated"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${personInstance?.officeHoldings}">
+				<li class="fieldcontain">
+					<span id="officeHoldings-label" class="property-label"><g:message code="person.officeHoldings.label" default="Office Holdings" /></span>
+					
+						<g:each in="${personInstance.officeHoldings}" var="o">
+						<span class="property-value" aria-labelledby="officeHoldings-label"><g:link controller="officeHolder" action="show" id="${o.id}">${o?.encodeAsHTML()}</g:link></span>
+						</g:each>
 					
 				</li>
 				</g:if>

@@ -3,6 +3,8 @@ package gov.vt.vslAdmin
 //import gov.vt.vslAdmin.*
 
 import org.grails.plugins.csv.CSVMapReader
+import java.sql.Timestamp;
+//import java.sql.Date;
 
 class LoadCsvService {
 
@@ -13,16 +15,20 @@ class LoadCsvService {
 	Integer loads
 	Integer errors
 
-	def loadRepresentatives() {
-		// Load the Representative file into People
-		deletes=District.executeUpdate('delete Representative')
+	def loadPeople() {
 		loads = 0;errors = 0
+		deletes=CommitteeAssignment.executeUpdate('delete CommitteeAssignment')
+		deletes=OfficeHolder.executeUpdate('delete OfficeHolder')
+		deletes=Person.executeUpdate('delete Person')
+
+		// Load the Representative file into People
 		fileName = "VermontHouse - Representative.csv"
-		Representative curRepresentative
+		Person curRepresentative
 		def reader = new File("${filePath}/${fileName}").toCsvMapReader()
 		def results = [:]
 		reader.each { map ->
-			curRepresentative = new Representative(map)
+			curRepresentative = new Person(map)
+			curRepresentative.currentParty = Party?.findByPartyCode(map.currentPartyCode)
 			if (!curRepresentative.save()) {
 			//	println "Error ${map['representative']}"
 				println curRepresentative.errors
@@ -31,20 +37,31 @@ class LoadCsvService {
 			} else {
 				loads++
 			}
+			def curOfficeHolder = new OfficeHolder(map)
+			curOfficeHolder.person = Person.findByPersonId(map.personId)
+			curOfficeHolder.termOfOffice = TermOfOffice.findByTermOfOfficeCode("H2013")
+			curOfficeHolder.party = Party.findByPartyCode(map.currentParty)
+			curOfficeHolder.district = District.findByDistrict(map.houseDistrict)
+			curOfficeHolder.startDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
+			curOfficeHolder.endDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
+			if (!curOfficeHolder.save()) {
+					println curOfficeHolder.errors
+					errors++
+				} else {
+					loads++
+				}
 		}
-		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
-		return ['table':'Representative','deletes':deletes,'loads':loads,'errors':errors]
-	}
-	def loadSenators() {
+		println "Representatives:   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+
 		// Load the Senator file into People
-		deletes=District.executeUpdate('delete Senator')
-		loads = 0;errors = 0
 		fileName = "VermontHouse - Senator.csv"
-		Senator curSenator
-		def reader = new File("${filePath}/${fileName}").toCsvMapReader()
-		def results = [:]
+		Person curSenator
+		reader = new File("${filePath}/${fileName}").toCsvMapReader()
+		results = [:]
 		reader.each { map ->
-			curSenator = new Senator(map)
+			curSenator = new Person(map)
+			curSenator.currentParty = Party?.findByPartyCode(map.currentPartyCode)
+			
 			if (!curSenator.save()) {
 			//	println "Error ${map['senator']}"
 				println curSenator.errors
@@ -54,8 +71,29 @@ class LoadCsvService {
 				loads++
 			}
 		}
-		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
-		return ['table':'Senator','deletes':deletes,'loads':loads,'errors':errors]
+		println "Senators:   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+
+		// Load the Executive file into People
+		fileName = "VermontHouse - Executive.csv"
+		Person curExecutive
+		reader = new File("${filePath}/${fileName}").toCsvMapReader()
+		results = [:]
+		reader.each { map ->
+			curExecutive = new Person(map)
+			curExecutive.currentParty = Party?.findByPartyCode(map.currentPartyCode)
+			
+			if (!curExecutive.save()) {
+			//	println "Error ${map['senator']}"
+				println curExecutive.errors
+			//	results[curExecutive.name] = curExecutive.errors
+				errors++
+			} else {
+				loads++
+			}
+		}
+		println "Executives   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+
+		return ['table':'People','deletes':deletes,'loads':loads,'errors':errors]
 	}
 		
 	def loadDistricts() {
@@ -102,6 +140,59 @@ class LoadCsvService {
 		return ['table':'Committee','deletes':deletes,'loads':loads,'errors':errors]
 	}
 	
+	def loadTermsOfOffice() {
+		// Load the TermOfOffice table
+		deletes=Session.executeUpdate('delete Session')
+		deletes=TermOfOffice.executeUpdate('delete TermOfOffice')
+		loads = 0;errors = 0
+		fileName = "VermontHouse - TermOfOffice.csv"
+		TermOfOffice curTermOfOffice
+		def reader = new File("${filePath}/${fileName}").toCsvMapReader()
+		def results = [:]
+		reader.each { map ->
+			curTermOfOffice = new TermOfOffice(map)
+			curTermOfOffice.office = Office?.findByOfficeCode(map.officeCode)
+			curTermOfOffice.startDate = Date.parse("MM/dd/yyyy",map.startDateString).toTimestamp()
+			curTermOfOffice.endDate = Date.parse("MM/dd/yyyy",map.endDateString).toTimestamp()
+			if (!curTermOfOffice.save()) {
+				println "Error ${map['termOfOffice']}"
+				println results
+				results[curTermOfOffice.termOfOffice] = curTermOfOffice.errors
+				errors++
+			} else {
+				loads++
+			}
+		}
+		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+		return ['table':'TermOfOffice','deletes':deletes,'loads':loads,'errors':errors]
+	}
+	
+	def loadSessions() {
+		// Load the Session table
+		deletes=Session.executeUpdate('delete Session')
+		loads = 0;errors = 0
+		fileName = "VermontHouse - Session.csv"
+		Session curSession
+		def reader = new File("${filePath}/${fileName}").toCsvMapReader()
+		def results = [:]
+		reader.each { map ->
+			curSession = new Session(map)
+			curSession.office = Office?.findByOfficeCode(map.officeCode)
+			curSession.termOfOffice = TermOfOffice?.findByTermOfOfficeCode(map.termOfOfficeCode)
+			curSession.startDate = Date.parse("MM/dd/yyyy",map.startDateString).toTimestamp()
+			curSession.endDate = Date.parse("MM/dd/yyyy",map.endDateString).toTimestamp()
+			if (!curSession.save()) {
+				println "Error ${map['session']}"
+				println results
+				results[curSession.session] = curSession.errors
+				errors++
+			} else {
+				loads++
+			}
+		}
+		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+		return ['table':'Session','deletes':deletes,'loads':loads,'errors':errors]
+	}
 	def loadGnisLocales() {
 		// Load the GNIS Locale table
 		deletes=Committee.executeUpdate('delete GnisLocale')

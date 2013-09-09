@@ -1,6 +1,6 @@
 package gov.vt.vslAdmin
 
-class Executive extends Person {
+class Executive {
 
 	Integer currentSeat
 	String currentParty
@@ -8,9 +8,9 @@ class Executive extends Person {
 	
 
 	// RELATIONSHIP PROPERTIES
-	static hasMany = [
-		committeeAssignments:CommitteeAssignment,
-		terms:Term]
+//	static hasMany = [
+//		committeeAssignments:CommitteeAssignment,
+//		terms:Term]
 	
 	// CONSTRAINTS
 	static constraints = {

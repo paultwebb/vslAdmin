@@ -1,6 +1,7 @@
 package gov.vt.vslAdmin
+// OBSOLETE
 
-class Representative extends Person {
+class Representative  {
 
 	Integer currentSeat
 	String currentParty
@@ -8,9 +9,9 @@ class Representative extends Person {
 	
 
 	// RELATIONSHIP PROPERTIES
-	static hasMany = [
-		committeeAssignments:CommitteeAssignment,
-		terms:Term]
+//	static hasMany = [
+//		committeeAssignments:CommitteeAssignment,
+//		terms:Term]
 	
 	// CONSTRAINTS
 	static constraints = {

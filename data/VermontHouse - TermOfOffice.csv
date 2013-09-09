@@ -1,0 +1,5 @@
+termOfOfficeCode,termOfOffice,description,startDateString,endDateString,officeCode
+H2013,House 2013-14 Term,House of Representatives 2013-14 Term,1/10/2013,1/9/2014,REP
+S2013,Senate 2013-14 Term,Senate 2013-14 Term,1/10/2013,1/9/2014,SEN
+G2013,Governor 2013-14 Term,Governor 2013-14 Term,1/10/2013,1/9/2014,GOV
+LG2013,Lt Governor 2013-14 Term,Lieutenant Governor 2013-14 Term,1/10/2013,1/9/2014,LGOV

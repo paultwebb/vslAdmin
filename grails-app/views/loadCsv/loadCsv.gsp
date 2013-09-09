@@ -12,8 +12,10 @@
 </g:if>
 
 <g:link controller='loadCsv' action='loadDistrict'>Load Districts</g:link><BR>
-<g:link controller='loadCsv' action='loadRepresentative'>Load Representatives</g:link><BR>
-<g:link controller='loadCsv' action='loadSenator'>Load Senators</g:link><BR>
+<g:link controller='loadCsv' action='loadTermOfOffice'>Load Terms Of Office</g:link><BR>
+<g:link controller='loadCsv' action='loadSession'>Load Sessions</g:link><BR>
+
+<g:link controller='loadCsv' action='loadPeople'>Load People</g:link><BR>
 
 <g:link controller='loadCsv' action='loadCommittee'>Load Committees</g:link><BR>
 <g:link controller='loadCsv' action='loadGnisLocale'>Load GNIS Locales</g:link><BR>

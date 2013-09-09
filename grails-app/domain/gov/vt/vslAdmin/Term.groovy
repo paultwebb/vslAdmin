@@ -1,5 +1,5 @@
 package gov.vt.vslAdmin
-
+// OBSOLETE
 class Term {
 
 	// PROPERTIES
@@ -11,16 +11,16 @@ class Term {
 	java.sql.Timestamp lastUpdated
 	
 	// RELATIONSHIP PROPERTIES
-	static belongsTo = [
-		representative:Person,
-		session:Session,
-		district:District
-		]
+//	static belongsTo = [
+//		representative:Person,
+//		session:Session,
+//		district:District
+//		]
 	
 	
 	// CONSTRAINTS
     static constraints = {
-		representative ()
+	//	representative ()
 		seat (blank:false)
 		party (blank:false, inList:["R","D","I","P","O"])
 		startDate(nullable:true)

@@ -3,7 +3,7 @@ package gov.vt.vslAdmin
 class District {
 
 	// PROPERTIES
-	Integer code
+	Integer districtCode
 	String district
 	Integer members 
 	String districtImage
@@ -13,11 +13,11 @@ class District {
 	
 	// RELATIONSHIP PROPERTIES
 	static hasMany = [
-		terms:Term]
+		officeHolders:OfficeHolder]
 	
 	// CONSTRAINTS
     static constraints = {
-		code (blank:false, unique:true, maxSize:3)
+		districtCode (blank:false, unique:true, maxSize:3)
 		district (blank:false, unique:true, maxSize:50)
 		members (nullable:true)
 		townList (nullable:true,maxSize:250)
