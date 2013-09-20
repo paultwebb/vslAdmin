@@ -24,6 +24,8 @@
 				<thead>
 					<tr>
 					
+						<th><g:message code="district.office.label" default="Office" /></th>
+					
 						<g:sortableColumn property="districtCode" title="${message(code: 'district.districtCode.label', default: 'District Code')}" />
 					
 						<g:sortableColumn property="district" title="${message(code: 'district.district.label', default: 'District')}" />
@@ -34,15 +36,15 @@
 					
 						<g:sortableColumn property="districtImage" title="${message(code: 'district.districtImage.label', default: 'District Image')}" />
 					
-						<g:sortableColumn property="dateCreated" title="${message(code: 'district.dateCreated.label', default: 'Date Created')}" />
-					
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${districtInstanceList}" status="i" var="districtInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${districtInstance.id}">${fieldValue(bean: districtInstance, field: "districtCode")}</g:link></td>
+						<td><g:link action="show" id="${districtInstance.id}">${fieldValue(bean: districtInstance, field: "office")}</g:link></td>
+					
+						<td>${fieldValue(bean: districtInstance, field: "districtCode")}</td>
 					
 						<td>${fieldValue(bean: districtInstance, field: "district")}</td>
 					
@@ -51,8 +53,6 @@
 						<td>${fieldValue(bean: districtInstance, field: "townList")}</td>
 					
 						<td>${fieldValue(bean: districtInstance, field: "districtImage")}</td>
-					
-						<td>${fieldValue(bean: districtInstance, field: "dateCreated")}</td>
 					
 					</tr>
 				</g:each>

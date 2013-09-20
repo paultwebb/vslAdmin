@@ -23,6 +23,15 @@
 			</g:if>
 			<ol class="property-list district">
 			
+				<g:if test="${districtInstance?.office}">
+				<li class="fieldcontain">
+					<span id="office-label" class="property-label"><g:message code="district.office.label" default="Office" /></span>
+					
+						<span class="property-value" aria-labelledby="office-label"><g:link controller="office" action="show" id="${districtInstance?.office?.id}">${districtInstance?.office?.encodeAsHTML()}</g:link></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${districtInstance?.districtCode}">
 				<li class="fieldcontain">
 					<span id="districtCode-label" class="property-label"><g:message code="district.districtCode.label" default="District Code" /></span>

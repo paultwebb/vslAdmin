@@ -2,6 +2,14 @@
 
 
 
+<div class="fieldcontain ${hasErrors(bean: districtInstance, field: 'office', 'error')} required">
+	<label for="office">
+		<g:message code="district.office.label" default="Office" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select id="office" name="office.id" from="${gov.vt.vslAdmin.Office.list()}" optionKey="id" required="" value="${districtInstance?.office?.id}" class="many-to-one"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: districtInstance, field: 'districtCode', 'error')} required">
 	<label for="districtCode">
 		<g:message code="district.districtCode.label" default="District Code" />

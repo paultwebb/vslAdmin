@@ -18,6 +18,8 @@
 <g:link controller='loadCsv' action='loadPeople'>Load People</g:link><BR>
 
 <g:link controller='loadCsv' action='loadCommittee'>Load Committees</g:link><BR>
+<g:link controller='loadCsv' action='loadCommitteeAssignment'>Load Committee Assignments</g:link><BR>
+
 <g:link controller='loadCsv' action='loadGnisLocale'>Load GNIS Locales</g:link><BR>
 <g:link controller='loadCsv' action='loadCounty'>Load Counties</g:link><BR>
 <g:link controller='loadCsv' action='loadTown'>Load Towns</g:link>

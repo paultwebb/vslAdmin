@@ -68,6 +68,17 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${officeInstance?.districts}">
+				<li class="fieldcontain">
+					<span id="districts-label" class="property-label"><g:message code="office.districts.label" default="Districts" /></span>
+					
+						<g:each in="${officeInstance.districts}" var="d">
+						<span class="property-value" aria-labelledby="districts-label"><g:link controller="district" action="show" id="${d.id}">${d?.encodeAsHTML()}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${officeInstance?.lastUpdated}">
 				<li class="fieldcontain">
 					<span id="lastUpdated-label" class="property-label"><g:message code="office.lastUpdated.label" default="Last Updated" /></span>

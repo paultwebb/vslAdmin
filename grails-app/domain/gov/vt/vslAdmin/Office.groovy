@@ -12,7 +12,8 @@ class Office {
 	// RELATIONSHIP PROPERTIES
 	// County -> Town[]
 	static hasMany = [termsOfOffice:TermOfOffice,
-		              sessions:Session]
+		              sessions:Session,
+					  districts:District]
 	
 	static belongsTo = [branch:Branch]
 	

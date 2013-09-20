@@ -38,9 +38,7 @@ class BootStrap {
 			new Branch(branchCode:"OTHER",branch:"Other", description:"eg. PSB").save(failOnError: true)
 		}
 		
-		if (!District.count()) {
-			new District(districtCode:"1",district:"Addison -1",members:1,townList:"Ferrisburgh, Vergennes").save(failOnError: true)
-		}
+
 		
 		if (!Office.count()) {
 			new Office(officeCode:"SEN",office:"Senator", description:"2 year term",branch:Branch.findByBranchCode("LEG")).save(failOnError: true)
@@ -50,7 +48,10 @@ class BootStrap {
 			new Office(officeCode:"AG",office:"Attorney General", description:"2 year term",branch:Branch.findByBranchCode("OTHER")).save(failOnError: true)
 			new Office(officeCode:"SC",office:"Supreme Court", description:"Lifetime appointment",branch:Branch.findByBranchCode("JUD")).save(failOnError: true)
 		}
-/*		
+		if (!District.count()) {
+			new District(districtCode:"1",office:Office.findByOfficeCode('REP'),district:"Addison -1",members:1,townList:"Ferrisburgh, Vergennes").save(failOnError: true)
+		}
+		/*		
 		if (!TermOfOffice.count()) {
 			new TermOfOffice(termOfOfficeCode:"H2013",termOfOffice:"House 2013-14 Term",description:"House 2013-14 Term",
 				startDate:Timestamp.valueOf('2013-01-10 00:00:00.0'),

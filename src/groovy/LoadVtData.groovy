@@ -8,7 +8,6 @@ import gov.vt.vslAdmin.District
 import gov.vt.vslAdmin.Person
 import gov.vt.vslAdmin.Committee
 import gov.vt.vslAdmin.CommitteeAssignment
-import gov.vt.vslAdmin.Term
 
 
 import org.grails.plugins.csv.CSVMapReader
@@ -253,43 +252,6 @@ def loadCommitteeAssignments() {
      println "   ${loads} loaded. ${errors} errors."
 }
 
-
-def loadTerms() {
-    // Load the Terms table from the reps table
-    println 'Loading Terms'
-    loads = 0;errors = 0
-    fileName = "VermontHouse - Representative.csv"
-    String filePath = "/Users/paulw/Downloads"
-    Term curTerm
-    def reader = new File("${filePath}/${fileName}").toCsvMapReader()
-    def results = [:]
-    reader.each { map ->
-        // println map
-        curTerm = new Term (
-                seat:map.currentSeat,
-                session:Session.findByCode(2013),
-                representative:Representative.findByRepId(map.repId),
-                district:District.findByDistrict(map.district),
-                party:map.currentParty,
-                startDate:Timestamp.valueOf('2012-11-15 00:00:00.0'),
-                endDate:Timestamp.valueOf('2012-11-15 00:00:00.0')
-                )
-        if (!curTerm.save()) {
-            println "Error ${map}"
-            println curTerm.errors
-            results[curTerm.party] = curTerm.errors
-            errors++
-        } else {
-            loads++
-        }
-    }
-    println "   ${loads} loaded. ${errors} errors."
-    // Adjust Warren's start date
-    def wvwTerm = Term.findBySeat(11)
-    wvwTerm.startDate=Timestamp.valueOf('2013-01-18 00:00:00.0')
-    wvwTerm.save()
-
-}
 
 //---------------
 // MAIN Section

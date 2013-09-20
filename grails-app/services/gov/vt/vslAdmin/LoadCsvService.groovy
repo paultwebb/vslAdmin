@@ -40,7 +40,7 @@ class LoadCsvService {
 			def curOfficeHolder = new OfficeHolder(map)
 			curOfficeHolder.person = Person.findByPersonId(map.personId)
 			curOfficeHolder.termOfOffice = TermOfOffice.findByTermOfOfficeCode("H2013")
-			curOfficeHolder.party = Party.findByPartyCode(map.currentParty)
+			curOfficeHolder.party = curRepresentative.currentParty
 			curOfficeHolder.district = District.findByDistrict(map.houseDistrict)
 			curOfficeHolder.startDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
 			curOfficeHolder.endDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
@@ -70,6 +70,19 @@ class LoadCsvService {
 			} else {
 				loads++
 			}
+			def curOfficeHolder = new OfficeHolder(map)
+			curOfficeHolder.person = Person.findByPersonId(map.personId)
+			curOfficeHolder.termOfOffice = TermOfOffice.findByTermOfOfficeCode("S2013")
+			curOfficeHolder.party = curSenator.currentParty
+			curOfficeHolder.district = District.findByDistrict(map.senateDistrict)
+			curOfficeHolder.startDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
+			curOfficeHolder.endDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
+			if (!curOfficeHolder.save()) {
+					println curOfficeHolder.errors
+					errors++
+				} else {
+					loads++
+				}
 		}
 		println "Senators:   ${deletes} deleted. ${loads} loaded. ${errors} errors."
 
@@ -90,7 +103,20 @@ class LoadCsvService {
 			} else {
 				loads++
 			}
-		}
+			def curOfficeHolder = new OfficeHolder(map)
+			curOfficeHolder.person = Person.findByPersonId(map.personId)
+			curOfficeHolder.termOfOffice = TermOfOffice.findByTermOfOfficeCode(map.termOfOfficeCode)
+			curOfficeHolder.party = curExecutive.currentParty
+			curOfficeHolder.district = District.findByDistrict("Statewide")
+			curOfficeHolder.startDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
+			curOfficeHolder.endDate = Timestamp.valueOf('2012-11-15 00:00:00.0')
+			if (!curOfficeHolder.save()) {
+					println curOfficeHolder.errors
+					errors++
+				} else {
+					loads++
+				}
+				}
 		println "Executives   ${deletes} deleted. ${loads} loaded. ${errors} errors."
 
 		return ['table':'People','deletes':deletes,'loads':loads,'errors':errors]
@@ -106,6 +132,8 @@ class LoadCsvService {
 		def results = [:]
 		reader.each { map ->
 			curDistrict = new District(map)
+			curDistrict.office = Office.findByOfficeCode(map.officeCode)
+			
 			if (!curDistrict.save()) {
 				println "Error ${map['district']}"
 				results[curDistrict.district] = curDistrict.errors
@@ -138,6 +166,33 @@ class LoadCsvService {
 		}
 		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
 		return ['table':'Committee','deletes':deletes,'loads':loads,'errors':errors]
+	}
+	
+	def loadCommitteeAssignments() {
+		// Load the Assignments table
+		deletes=CommitteeAssignment.executeUpdate('delete CommitteeAssignment')
+		loads = 0;errors = 0
+		fileName = "VermontHouse - Assignment.csv"
+		CommitteeAssignment curCommitteeAssignment
+		def reader = new File("${filePath}/${fileName}").toCsvMapReader()
+		def results = [:]
+		reader.each { map ->
+			curCommitteeAssignment = new CommitteeAssignment(
+					committee:Committee.findByCommitteeCode(map.committeeCode),
+					person:Person.findByPersonId(map.personId),
+					role:map.role
+					)
+			if (!curCommitteeAssignment.save()) {
+				println "Error ${map}"
+				println curCommitteeAssignment.errors.fieldErrors
+				results[curCommitteeAssignment.role] = curCommitteeAssignment.errors
+				errors++
+			} else {
+				loads++
+			}
+		 }
+		println "   ${deletes} deleted. ${loads} loaded. ${errors} errors."
+		return ['table':'CommitteeAssignment','deletes':deletes,'loads':loads,'errors':errors]
 	}
 	
 	def loadTermsOfOffice() {

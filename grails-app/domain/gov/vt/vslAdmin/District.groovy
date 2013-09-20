@@ -15,10 +15,13 @@ class District {
 	static hasMany = [
 		officeHolders:OfficeHolder]
 	
+	static belongsTo = [ office:Office]
+	
 	// CONSTRAINTS
     static constraints = {
+		office (blank:false)
 		districtCode (blank:false, unique:true, maxSize:3)
-		district (blank:false, unique:true, maxSize:50)
+		district (blank:false, maxSize:50)
 		members (nullable:true)
 		townList (nullable:true,maxSize:250)
 		districtImage (nullable:true,maxSize:100)

@@ -8,7 +8,7 @@ class User {
 	String lastName
 	
     static constraints = {
-      login blank:false, size:5..15,matches:/[\S]+/, unique:true
+      login blank:false, size:1..25,matches:/[\S]+/, unique:true
 	  password blank:false, size:5..15, matches:/[\S]+/
 	  firstName blank:false
 	  lastName blank:false

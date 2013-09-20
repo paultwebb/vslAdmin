@@ -47,6 +47,11 @@ class LoadCsvController {
 		def results = loadCsvService.loadCommittees()
 		redirect(action:'loadCsv', params:results)
 	}
+	
+	def loadCommitteeAssignment() {
+		def results = loadCsvService.loadCommitteeAssignments()
+		redirect(action:'loadCsv', params:results)
+	}
 
 	def loadGnisLocale() {
 		def results = loadCsvService.loadGnisLocales()

@@ -1,5 +1,4 @@
 package gov.vt.vslAdmin
-import gov.vt.vslAdmin.Term
 import grails.gorm.DetachedCriteria
 
 
@@ -31,29 +30,33 @@ class SearchController {
 		
 	}
 	
-	def findRep() {
+
+	def findSeat() {
 		//render(params)
-		def term  = Term.findBySeat(params.seat)
-		if (term) {
-			redirect(action:'show', controller:'Term',id:term.id)
-			// render("${term.seat} ${term.representative} (${term.party}) ${term.session} ${term.district} ")
+		def officeHolderList  = OfficeHolder.findAllBySeat(params.seat)
+		println("${officeHolderList.size()}")
+		if (officeHolderList) {
+			//redirect(lastName:params.lastName)
+			return[officeHolders:officeHolderList, officeHoldersTotal: officeHolderList.size()]
 		} else {
 		  // set the request variable to be used by the view
-		  request.notfound = "Representative seat/plate ${params.seat} not found"
-		  // redirect back to the search page
+		  request.notfound = "No people with a seat of ${params.seat} found"
 		  render(view:'index',model:request.notfound)
-		  // return [request.notfound] // this would go to findRes.gsp
 		}
 	}
 	
 	def findPerson() {
 		//render(params)
-		def person  = Person.findByLastName(params.lastName)
-		if (person) {
-			redirect(action:'list', controller:'Person')
+		//def personList  = Person.findAllByLastName(params.lastName)
+		def personList  = Person.findAllByNameIlike('%'+params.name+'%')
+		//		def personList = Person.findAll { it.lastName.toUpperCase() ==~ /.*${params.lastName()}.*/ }
+		println("${personList.size()}")
+		if (personList) {
+			//redirect(lastName:params.lastName)
+			return[people:personList]
 		} else {
-		  // set the request variable to be used bby the view
-		  request.notfound = "No people with the last name of ${params.lastName} found"
+		  // set the request variable to be used by the view
+		  request.notfound = "No people with the name of ${params.name} found"
 		  render(view:'index',model:request.notfound)
 		}
 	}
